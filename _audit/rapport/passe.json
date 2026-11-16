@@ -1,0 +1,16 @@
+{
+ "id": "20261116-162037-standard-cible-partiel",
+ "date": "2026-11-16T16:21:02.635Z",
+ "niveau": "standard",
+ "pages": "/electriciens",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 5,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

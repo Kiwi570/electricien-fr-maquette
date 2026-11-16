@@ -1,0 +1,1326 @@
+{
+ "dossier": "/home/claude/electricien-fr-maquette/recu/grok",
+ "date": "2026-11-16T15:13:55.969Z",
+ "detection": "mesures sharp seulement",
+ "planches": [
+  "planche.jpg"
+ ],
+ "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+ "doublons": [],
+ "images": [
+  {
+   "fichier": "accueil-cuivre.jpg",
+   "nom": "accueil-cuivre",
+   "drapeau": null,
+   "largeur": 1536,
+   "hauteur": 1024,
+   "ratio": "3:2",
+   "ratio_valeur": 1.5,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 213547,
+   "transparence": false,
+   "sujet": {
+    "x": 6.3,
+    "y": 31.8,
+    "l": 84.4,
+    "h": 63.6,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    58,
+    65
+   ],
+   "cadrage_css": "58% 65%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.81,
+     "ton": "sombre",
+     "recouvre_sujet": 0.08
+    },
+    {
+     "cote": "gauche",
+     "score": 0.18,
+     "ton": "sombre",
+     "recouvre_sujet": 0.54
+    },
+    {
+     "cote": "droite",
+     "score": 0.15,
+     "ton": "moyen",
+     "recouvre_sujet": 0.49
+    },
+    {
+     "cote": "bas",
+     "score": 0,
+     "ton": "moyen",
+     "recouvre_sujet": 0.73
+    }
+   ],
+   "qualite": {
+    "nettete": 4.9,
+    "bruit": 0.33,
+    "compression": 1.29,
+    "faible": false,
+    "raisons": [],
+    "note": "flou voulu (profondeur de champ, fond nuit uni) : net à l’œil, corrigé par Claude"
+   },
+   "lisible": null,
+   "empreinte": "761e1c78b91c9cec",
+   "drapeaux": [
+    "floue",
+    "calme haut"
+   ]
+  },
+  {
+   "fichier": "accueil-interieur.jpg",
+   "nom": "accueil-interieur",
+   "drapeau": null,
+   "largeur": 1024,
+   "hauteur": 1536,
+   "ratio": "2:3",
+   "ratio_valeur": 0.667,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 160737,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 31.3,
+    "l": 95.5,
+    "h": 68.8,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    51,
+    64
+   ],
+   "cadrage_css": "51% 64%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.86,
+     "ton": "sombre",
+     "recouvre_sujet": 0.1
+    },
+    {
+     "cote": "gauche",
+     "score": 0.36,
+     "ton": "moyen",
+     "recouvre_sujet": 0.69
+    },
+    {
+     "cote": "droite",
+     "score": 0.22,
+     "ton": "sombre",
+     "recouvre_sujet": 0.61
+    },
+    {
+     "cote": "bas",
+     "score": 0,
+     "ton": "sombre",
+     "recouvre_sujet": 0.96
+    }
+   ],
+   "qualite": {
+    "nettete": 2.7,
+    "bruit": 0.21,
+    "compression": 1.28,
+    "faible": false,
+    "raisons": [],
+    "note": "carte portrait affichée à 420 px au plus : 1024 px suffisent, netteté mesurée après agrandissement à 1280 px ; vérifié à l’œil par Claude"
+   },
+   "lisible": null,
+   "empreinte": "000021656585a5b4",
+   "drapeaux": [
+    "petite",
+    "floue",
+    "calme haut"
+   ]
+  },
+  {
+   "fichier": "accueil-local-technique-mobile.jpg",
+   "nom": "accueil-local-technique-mobile",
+   "drapeau": null,
+   "largeur": 1080,
+   "hauteur": 1920,
+   "ratio": "9:16",
+   "ratio_valeur": 0.563,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 196420,
+   "transparence": false,
+   "sujet": {
+    "x": 11.1,
+    "y": 31.3,
+    "l": 66.7,
+    "h": 46.9,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    41,
+    57
+   ],
+   "cadrage_css": "41% 57%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.78,
+     "ton": "sombre",
+     "recouvre_sujet": 0.07
+    },
+    {
+     "cote": "droite",
+     "score": 0.54,
+     "ton": "sombre",
+     "recouvre_sujet": 0.21
+    },
+    {
+     "cote": "bas",
+     "score": 0.51,
+     "ton": "sombre",
+     "recouvre_sujet": 0.25
+    },
+    {
+     "cote": "gauche",
+     "score": 0.36,
+     "ton": "sombre",
+     "recouvre_sujet": 0.34
+    }
+   ],
+   "qualite": {
+    "nettete": 10.2,
+    "bruit": 0.29,
+    "compression": 1.02,
+    "faible": true,
+    "raisons": [
+     "1080 px de large"
+    ]
+   },
+   "lisible": null,
+   "empreinte": "cee1f3d294d5e3e1",
+   "drapeaux": [
+    "petite",
+    "calme haut"
+   ]
+  },
+  {
+   "fichier": "accueil-local-technique.jpg",
+   "nom": "accueil-local-technique",
+   "drapeau": null,
+   "largeur": 1600,
+   "hauteur": 900,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 180133,
+   "transparence": false,
+   "sujet": {
+    "x": 9.4,
+    "y": 0,
+    "l": 87.5,
+    "h": 94.4,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    49,
+    45
+   ],
+   "cadrage_css": "49% 45%",
+   "zones_calmes": [
+    {
+     "cote": "gauche",
+     "score": 0.2,
+     "ton": "sombre",
+     "recouvre_sujet": 0.72
+    },
+    {
+     "cote": "bas",
+     "score": 0.12,
+     "ton": "sombre",
+     "recouvre_sujet": 0.74
+    },
+    {
+     "cote": "droite",
+     "score": 0.06,
+     "ton": "sombre",
+     "recouvre_sujet": 0.87
+    },
+    {
+     "cote": "haut",
+     "score": 0.02,
+     "ton": "sombre",
+     "recouvre_sujet": 0.88
+    }
+   ],
+   "qualite": {
+    "nettete": 5.4,
+    "bruit": 0.33,
+    "compression": 1.12,
+    "faible": false,
+    "raisons": [],
+    "note": "flou voulu (profondeur de champ, fond nuit uni) : net à l’œil, corrigé par Claude"
+   },
+   "lisible": null,
+   "empreinte": "c9f1f3f2e2d2d3cb",
+   "drapeaux": [
+    "floue"
+   ]
+  },
+  {
+   "fichier": "accueil-maison-soir.jpg",
+   "nom": "accueil-maison-soir",
+   "drapeau": null,
+   "largeur": 1024,
+   "hauteur": 1536,
+   "ratio": "2:3",
+   "ratio_valeur": 0.667,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 800441,
+   "transparence": false,
+   "sujet": {
+    "x": 4.5,
+    "y": 6.3,
+    "l": 81.8,
+    "h": 81.3,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    47,
+    45
+   ],
+   "cadrage_css": "47% 45%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.2,
+     "ton": "sombre",
+     "recouvre_sujet": 0.67
+    },
+    {
+     "cote": "droite",
+     "score": 0.16,
+     "ton": "sombre",
+     "recouvre_sujet": 0.53
+    },
+    {
+     "cote": "bas",
+     "score": 0.15,
+     "ton": "sombre",
+     "recouvre_sujet": 0.53
+    },
+    {
+     "cote": "gauche",
+     "score": 0.06,
+     "ton": "sombre",
+     "recouvre_sujet": 0.72
+    }
+   ],
+   "qualite": {
+    "nettete": 103.2,
+    "bruit": 2.27,
+    "compression": 0.98,
+    "faible": false,
+    "raisons": [],
+    "note": "carte portrait affichée à 420 px au plus : 1024 px suffisent, netteté mesurée après agrandissement à 1280 px ; vérifié à l’œil par Claude"
+   },
+   "lisible": null,
+   "empreinte": "f8919634ba7a75b1",
+   "drapeaux": [
+    "petite"
+   ]
+  },
+  {
+   "fichier": "accueil-tableau.jpg",
+   "nom": "accueil-tableau",
+   "drapeau": null,
+   "largeur": 1024,
+   "hauteur": 1536,
+   "ratio": "2:3",
+   "ratio_valeur": 0.667,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 201812,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 0,
+    "l": 95.5,
+    "h": 100,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    46,
+    48
+   ],
+   "cadrage_css": "46% 48%",
+   "zones_calmes": [
+    {
+     "cote": "gauche",
+     "score": 0,
+     "ton": "moyen",
+     "recouvre_sujet": 1
+    },
+    {
+     "cote": "droite",
+     "score": 0,
+     "ton": "moyen",
+     "recouvre_sujet": 0.89
+    },
+    {
+     "cote": "haut",
+     "score": 0,
+     "ton": "moyen",
+     "recouvre_sujet": 0.96
+    },
+    {
+     "cote": "bas",
+     "score": 0,
+     "ton": "sombre",
+     "recouvre_sujet": 0.96
+    }
+   ],
+   "qualite": {
+    "nettete": 4,
+    "bruit": 0.33,
+    "compression": 1.2,
+    "faible": false,
+    "raisons": [],
+    "note": "carte portrait affichée à 420 px au plus : 1024 px suffisent, netteté mesurée après agrandissement à 1280 px ; vérifié à l’œil par Claude"
+   },
+   "lisible": null,
+   "empreinte": "cf03a46bc186cbc0",
+   "drapeaux": [
+    "petite",
+    "floue"
+   ]
+  },
+  {
+   "fichier": "conseil-diagnostic.jpg",
+   "nom": "conseil-diagnostic",
+   "drapeau": null,
+   "largeur": 1024,
+   "hauteur": 1536,
+   "ratio": "2:3",
+   "ratio_valeur": 0.667,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 196437,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 0,
+    "l": 95.5,
+    "h": 100,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    49,
+    45
+   ],
+   "cadrage_css": "49% 45%",
+   "zones_calmes": [
+    {
+     "cote": "bas",
+     "score": 0.1,
+     "ton": "sombre",
+     "recouvre_sujet": 0.96
+    },
+    {
+     "cote": "gauche",
+     "score": 0.09,
+     "ton": "moyen",
+     "recouvre_sujet": 1
+    },
+    {
+     "cote": "droite",
+     "score": 0,
+     "ton": "sombre",
+     "recouvre_sujet": 0.89
+    },
+    {
+     "cote": "haut",
+     "score": 0,
+     "ton": "moyen",
+     "recouvre_sujet": 0.96
+    }
+   ],
+   "qualite": {
+    "nettete": 3.6,
+    "bruit": 0.31,
+    "compression": 1.2,
+    "faible": false,
+    "raisons": [],
+    "note": "carte portrait affichée à 420 px au plus : 1024 px suffisent, netteté mesurée après agrandissement à 1280 px ; vérifié à l’œil par Claude"
+   },
+   "lisible": null,
+   "empreinte": "63c484e1a1d391b4",
+   "drapeaux": [
+    "petite",
+    "floue"
+   ]
+  },
+  {
+   "fichier": "conseil-norme.jpg",
+   "nom": "conseil-norme",
+   "drapeau": null,
+   "largeur": 1024,
+   "hauteur": 1536,
+   "ratio": "2:3",
+   "ratio_valeur": 0.667,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 114876,
+   "transparence": false,
+   "sujet": {
+    "x": 31.8,
+    "y": 21.9,
+    "l": 59.1,
+    "h": 56.3,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    68,
+    49
+   ],
+   "cadrage_css": "68% 49%",
+   "zones_calmes": [
+    {
+     "cote": "gauche",
+     "score": 0.75,
+     "ton": "clair",
+     "recouvre_sujet": 0.12
+    },
+    {
+     "cote": "bas",
+     "score": 0.65,
+     "ton": "moyen",
+     "recouvre_sujet": 0.22
+    },
+    {
+     "cote": "haut",
+     "score": 0.56,
+     "ton": "clair",
+     "recouvre_sujet": 0.22
+    },
+    {
+     "cote": "droite",
+     "score": 0.37,
+     "ton": "clair",
+     "recouvre_sujet": 0.43
+    }
+   ],
+   "qualite": {
+    "nettete": 1.9,
+    "bruit": 0.16,
+    "compression": 1.46,
+    "faible": false,
+    "raisons": [],
+    "note": "carte portrait affichée à 420 px au plus : 1024 px suffisent, netteté mesurée après agrandissement à 1280 px ; vérifié à l’œil par Claude"
+   },
+   "lisible": null,
+   "empreinte": "fe7873737c7c18f8",
+   "drapeaux": [
+    "petite",
+    "floue",
+    "compression visible",
+    "calme gauche/bas"
+   ]
+  },
+  {
+   "fichier": "conseil-pro.jpg",
+   "nom": "conseil-pro",
+   "drapeau": null,
+   "largeur": 1024,
+   "hauteur": 1536,
+   "ratio": "2:3",
+   "ratio_valeur": 0.667,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 216468,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 0,
+    "l": 95.5,
+    "h": 93.8,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    54,
+    43
+   ],
+   "cadrage_css": "54% 43%",
+   "zones_calmes": [
+    {
+     "cote": "bas",
+     "score": 0.22,
+     "ton": "sombre",
+     "recouvre_sujet": 0.79
+    },
+    {
+     "cote": "gauche",
+     "score": 0.08,
+     "ton": "moyen",
+     "recouvre_sujet": 0.94
+    },
+    {
+     "cote": "haut",
+     "score": 0.06,
+     "ton": "moyen",
+     "recouvre_sujet": 0.96
+    },
+    {
+     "cote": "droite",
+     "score": 0,
+     "ton": "sombre",
+     "recouvre_sujet": 0.83
+    }
+   ],
+   "qualite": {
+    "nettete": 3.5,
+    "bruit": 0.36,
+    "compression": 1.26,
+    "faible": false,
+    "raisons": [],
+    "note": "carte portrait affichée à 420 px au plus : 1024 px suffisent, netteté mesurée après agrandissement à 1280 px ; vérifié à l’œil par Claude"
+   },
+   "lisible": null,
+   "empreinte": "79115c4f6794c306",
+   "drapeaux": [
+    "petite",
+    "floue"
+   ]
+  },
+  {
+   "fichier": "conseil-solaire.jpg",
+   "nom": "conseil-solaire",
+   "drapeau": null,
+   "largeur": 1024,
+   "hauteur": 1536,
+   "ratio": "2:3",
+   "ratio_valeur": 0.667,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 194383,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 12.5,
+    "l": 95.5,
+    "h": 87.5,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    56,
+    62
+   ],
+   "cadrage_css": "56% 62%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.58,
+     "ton": "clair",
+     "recouvre_sujet": 0.61
+    },
+    {
+     "cote": "gauche",
+     "score": 0.16,
+     "ton": "sombre",
+     "recouvre_sujet": 0.88
+    },
+    {
+     "cote": "droite",
+     "score": 0.04,
+     "ton": "moyen",
+     "recouvre_sujet": 0.78
+    },
+    {
+     "cote": "bas",
+     "score": 0,
+     "ton": "sombre",
+     "recouvre_sujet": 0.96
+    }
+   ],
+   "qualite": {
+    "nettete": 5.2,
+    "bruit": 0.29,
+    "compression": 1.31,
+    "faible": false,
+    "raisons": [],
+    "note": "carte portrait affichée à 420 px au plus : 1024 px suffisent, netteté mesurée après agrandissement à 1280 px ; vérifié à l’œil par Claude"
+   },
+   "lisible": null,
+   "empreinte": "ffdffffaf1fcfc71",
+   "drapeaux": [
+    "petite",
+    "floue"
+   ]
+  },
+  {
+   "fichier": "conseils-tableau-mobile.jpg",
+   "nom": "conseils-tableau-mobile",
+   "drapeau": null,
+   "largeur": 1080,
+   "hauteur": 1920,
+   "ratio": "9:16",
+   "ratio_valeur": 0.563,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 195840,
+   "transparence": false,
+   "sujet": {
+    "x": 22.2,
+    "y": 37.5,
+    "l": 66.7,
+    "h": 50,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    54,
+    62
+   ],
+   "cadrage_css": "54% 62%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.96,
+     "ton": "clair",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "gauche",
+     "score": 0.43,
+     "ton": "clair",
+     "recouvre_sujet": 0.22
+    },
+    {
+     "cote": "droite",
+     "score": 0.27,
+     "ton": "clair",
+     "recouvre_sujet": 0.36
+    },
+    {
+     "cote": "bas",
+     "score": 0.17,
+     "ton": "moyen",
+     "recouvre_sujet": 0.43
+    }
+   ],
+   "qualite": {
+    "nettete": 10.1,
+    "bruit": 0.26,
+    "compression": 0.96,
+    "faible": true,
+    "raisons": [
+     "1080 px de large"
+    ]
+   },
+   "lisible": null,
+   "empreinte": "00304f6371310b2b",
+   "drapeaux": [
+    "petite",
+    "calme haut"
+   ]
+  },
+  {
+   "fichier": "conseils-tableau.jpg",
+   "nom": "conseils-tableau",
+   "drapeau": null,
+   "largeur": 1600,
+   "hauteur": 900,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 137207,
+   "transparence": false,
+   "sujet": {
+    "x": 46.9,
+    "y": 5.6,
+    "l": 46.9,
+    "h": 83.3,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    63,
+    47
+   ],
+   "cadrage_css": "63% 47%",
+   "zones_calmes": [
+    {
+     "cote": "gauche",
+     "score": 0.98,
+     "ton": "clair",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "bas",
+     "score": 0.42,
+     "ton": "clair",
+     "recouvre_sujet": 0.32
+    },
+    {
+     "cote": "haut",
+     "score": 0.4,
+     "ton": "clair",
+     "recouvre_sujet": 0.39
+    },
+    {
+     "cote": "droite",
+     "score": 0.04,
+     "ton": "moyen",
+     "recouvre_sujet": 0.7
+    }
+   ],
+   "qualite": {
+    "nettete": 26.5,
+    "bruit": 0.19,
+    "compression": 1.04,
+    "faible": false,
+    "raisons": []
+   },
+   "lisible": null,
+   "empreinte": "0406060c07060c05",
+   "drapeaux": [
+    "calme gauche"
+   ]
+  },
+  {
+   "fichier": "contact-lampe-mobile.jpg",
+   "nom": "contact-lampe-mobile",
+   "drapeau": null,
+   "largeur": 1080,
+   "hauteur": 1920,
+   "ratio": "9:16",
+   "ratio_valeur": 0.563,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 100727,
+   "transparence": false,
+   "sujet": {
+    "x": 38.9,
+    "y": 46.9,
+    "l": 27.8,
+    "h": 25,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    53,
+    61
+   ],
+   "cadrage_css": "53% 61%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.96,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "gauche",
+     "score": 0.92,
+     "ton": "sombre",
+     "recouvre_sujet": 0.01
+    },
+    {
+     "cote": "droite",
+     "score": 0.84,
+     "ton": "sombre",
+     "recouvre_sujet": 0.04
+    },
+    {
+     "cote": "bas",
+     "score": 0.81,
+     "ton": "sombre",
+     "recouvre_sujet": 0.05
+    }
+   ],
+   "qualite": {
+    "nettete": 9,
+    "bruit": 0.11,
+    "compression": 1.04,
+    "faible": true,
+    "raisons": [
+     "1080 px de large"
+    ]
+   },
+   "lisible": null,
+   "empreinte": "f7f3b7daf0f0ecf9",
+   "drapeaux": [
+    "petite",
+    "calme haut/gauche/droite/bas"
+   ]
+  },
+  {
+   "fichier": "contact-lampe.jpg",
+   "nom": "contact-lampe",
+   "drapeau": null,
+   "largeur": 1600,
+   "hauteur": 900,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 68744,
+   "transparence": false,
+   "sujet": {
+    "x": 59.4,
+    "y": 22.2,
+    "l": 15.6,
+    "h": 38.9,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    68,
+    46
+   ],
+   "cadrage_css": "68% 46%",
+   "zones_calmes": [
+    {
+     "cote": "gauche",
+     "score": 0.98,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "bas",
+     "score": 0.95,
+     "ton": "sombre",
+     "recouvre_sujet": 0
+    },
+    {
+     "cote": "haut",
+     "score": 0.84,
+     "ton": "sombre",
+     "recouvre_sujet": 0.06
+    },
+    {
+     "cote": "droite",
+     "score": 0.62,
+     "ton": "sombre",
+     "recouvre_sujet": 0.15
+    }
+   ],
+   "qualite": {
+    "nettete": 1.5,
+    "bruit": 0.11,
+    "compression": 1.22,
+    "faible": false,
+    "raisons": [],
+    "note": "flou voulu (profondeur de champ, fond nuit uni) : net à l’œil, corrigé par Claude"
+   },
+   "lisible": null,
+   "empreinte": "fdfcfcacbc7cdcfd",
+   "drapeaux": [
+    "floue",
+    "calme gauche/bas/haut"
+   ]
+  },
+  {
+   "fichier": "electriciens-atelier.jpg",
+   "nom": "electriciens-atelier",
+   "drapeau": null,
+   "largeur": 1536,
+   "hauteur": 1024,
+   "ratio": "3:2",
+   "ratio_valeur": 1.5,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 313305,
+   "transparence": false,
+   "sujet": {
+    "x": 12.5,
+    "y": 13.6,
+    "l": 56.3,
+    "h": 72.7,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    44,
+    51
+   ],
+   "cadrage_css": "44% 51%",
+   "zones_calmes": [
+    {
+     "cote": "droite",
+     "score": 0.69,
+     "ton": "sombre",
+     "recouvre_sujet": 0.16
+    },
+    {
+     "cote": "haut",
+     "score": 0.4,
+     "ton": "sombre",
+     "recouvre_sujet": 0.34
+    },
+    {
+     "cote": "bas",
+     "score": 0.39,
+     "ton": "sombre",
+     "recouvre_sujet": 0.34
+    },
+    {
+     "cote": "gauche",
+     "score": 0.15,
+     "ton": "sombre",
+     "recouvre_sujet": 0.5
+    }
+   ],
+   "qualite": {
+    "nettete": 58.8,
+    "bruit": 0.56,
+    "compression": 1.24,
+    "faible": false,
+    "raisons": []
+   },
+   "lisible": null,
+   "empreinte": "f8c8c8b0b0c8c8d8",
+   "drapeaux": [
+    "calme droite"
+   ]
+  },
+  {
+   "fichier": "electriciens-chantier-mobile.jpg",
+   "nom": "electriciens-chantier-mobile",
+   "drapeau": null,
+   "largeur": 1080,
+   "hauteur": 1920,
+   "ratio": "9:16",
+   "ratio_valeur": 0.563,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 246840,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 3.1,
+    "l": 100,
+    "h": 96.9,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    43,
+    41
+   ],
+   "cadrage_css": "43% 41%",
+   "zones_calmes": [
+    {
+     "cote": "bas",
+     "score": 0.19,
+     "ton": "sombre",
+     "recouvre_sujet": 1
+    },
+    {
+     "cote": "droite",
+     "score": 0.16,
+     "ton": "sombre",
+     "recouvre_sujet": 0.97
+    },
+    {
+     "cote": "gauche",
+     "score": 0,
+     "ton": "sombre",
+     "recouvre_sujet": 0.97
+    },
+    {
+     "cote": "haut",
+     "score": 0,
+     "ton": "sombre",
+     "recouvre_sujet": 0.91
+    }
+   ],
+   "qualite": {
+    "nettete": 3.6,
+    "bruit": 0.31,
+    "compression": 0.95,
+    "faible": true,
+    "raisons": [
+     "1080 px de large",
+     "floue"
+    ]
+   },
+   "lisible": null,
+   "empreinte": "614fb038109f0d0f",
+   "drapeaux": [
+    "petite",
+    "floue"
+   ]
+  },
+  {
+   "fichier": "electriciens-chantier.jpg",
+   "nom": "electriciens-chantier",
+   "drapeau": null,
+   "largeur": 1600,
+   "hauteur": 900,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 257667,
+   "transparence": false,
+   "sujet": {
+    "x": 12.5,
+    "y": 22.2,
+    "l": 50,
+    "h": 50,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    38,
+    40
+   ],
+   "cadrage_css": "38% 40%",
+   "zones_calmes": [
+    {
+     "cote": "droite",
+     "score": 0.55,
+     "ton": "sombre",
+     "recouvre_sujet": 0.03
+    },
+    {
+     "cote": "bas",
+     "score": 0.3,
+     "ton": "sombre",
+     "recouvre_sujet": 0.1
+    },
+    {
+     "cote": "haut",
+     "score": 0.22,
+     "ton": "sombre",
+     "recouvre_sujet": 0.18
+    },
+    {
+     "cote": "gauche",
+     "score": 0.13,
+     "ton": "sombre",
+     "recouvre_sujet": 0.34
+    }
+   ],
+   "qualite": {
+    "nettete": 9.7,
+    "bruit": 0.43,
+    "compression": 1.15,
+    "faible": false,
+    "raisons": []
+   },
+   "lisible": null,
+   "empreinte": "0966c3c884852d6e",
+   "drapeaux": []
+  },
+  {
+   "fichier": "page-404.jpg",
+   "nom": "page-404",
+   "drapeau": null,
+   "largeur": 1600,
+   "hauteur": 900,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 205948,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 33.3,
+    "l": 100,
+    "h": 66.7,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    54,
+    73
+   ],
+   "cadrage_css": "54% 73%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.96,
+     "ton": "clair",
+     "recouvre_sujet": 0.05
+    },
+    {
+     "cote": "droite",
+     "score": 0.55,
+     "ton": "clair",
+     "recouvre_sujet": 0.67
+    },
+    {
+     "cote": "gauche",
+     "score": 0.53,
+     "ton": "clair",
+     "recouvre_sujet": 0.67
+    },
+    {
+     "cote": "bas",
+     "score": 0.43,
+     "ton": "moyen",
+     "recouvre_sujet": 1
+    }
+   ],
+   "qualite": {
+    "nettete": 25.2,
+    "bruit": 0.78,
+    "compression": 1.3,
+    "faible": false,
+    "raisons": []
+   },
+   "lisible": null,
+   "empreinte": "e0e0c0c2a6c0b0a0",
+   "drapeaux": [
+    "calme haut"
+   ]
+  },
+  {
+   "fichier": "trouver-rue-mobile.jpg",
+   "nom": "trouver-rue-mobile",
+   "drapeau": null,
+   "largeur": 1080,
+   "hauteur": 1920,
+   "ratio": "9:16",
+   "ratio_valeur": 0.563,
+   "orientation": "portrait",
+   "format": "jpeg",
+   "poids": 283939,
+   "transparence": false,
+   "sujet": {
+    "x": 0,
+    "y": 9.4,
+    "l": 100,
+    "h": 84.4,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    54,
+    50
+   ],
+   "cadrage_css": "54% 50%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.34,
+     "ton": "moyen",
+     "recouvre_sujet": 0.73
+    },
+    {
+     "cote": "gauche",
+     "score": 0.05,
+     "ton": "sombre",
+     "recouvre_sujet": 0.84
+    },
+    {
+     "cote": "bas",
+     "score": 0.01,
+     "ton": "sombre",
+     "recouvre_sujet": 0.82
+    },
+    {
+     "cote": "droite",
+     "score": 0,
+     "ton": "moyen",
+     "recouvre_sujet": 0.84
+    }
+   ],
+   "qualite": {
+    "nettete": 4.2,
+    "bruit": 0.34,
+    "compression": 0.96,
+    "faible": true,
+    "raisons": [
+     "1080 px de large",
+     "floue"
+    ]
+   },
+   "lisible": null,
+   "empreinte": "f4d8d9cf5656757c",
+   "drapeaux": [
+    "petite",
+    "floue"
+   ]
+  },
+  {
+   "fichier": "trouver-rue.jpg",
+   "nom": "trouver-rue",
+   "drapeau": null,
+   "largeur": 1600,
+   "hauteur": 900,
+   "ratio": "16:9",
+   "ratio_valeur": 1.778,
+   "orientation": "paysage",
+   "format": "jpeg",
+   "poids": 339548,
+   "transparence": false,
+   "sujet": {
+    "x": 9.4,
+    "y": 5.6,
+    "l": 90.6,
+    "h": 88.9,
+    "source": "contrastes"
+   },
+   "visages": 0,
+   "cadrage": [
+    51,
+    44
+   ],
+   "cadrage_css": "51% 44%",
+   "zones_calmes": [
+    {
+     "cote": "haut",
+     "score": 0.08,
+     "ton": "sombre",
+     "recouvre_sujet": 0.76
+    },
+    {
+     "cote": "gauche",
+     "score": 0.03,
+     "ton": "sombre",
+     "recouvre_sujet": 0.68
+    },
+    {
+     "cote": "bas",
+     "score": 0.02,
+     "ton": "sombre",
+     "recouvre_sujet": 0.76
+    },
+    {
+     "cote": "droite",
+     "score": 0,
+     "ton": "sombre",
+     "recouvre_sujet": 0.89
+    }
+   ],
+   "qualite": {
+    "nettete": 10,
+    "bruit": 0.44,
+    "compression": 1.09,
+    "faible": false,
+    "raisons": []
+   },
+   "lisible": null,
+   "empreinte": "bede9ca1a9292663",
+   "drapeaux": []
+  }
+ ]
+}

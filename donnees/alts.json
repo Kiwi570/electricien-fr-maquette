@@ -1,0 +1,17 @@
+{
+ "grok/accueil-maison-soir": "Maison de ville à la tombée du jour, fenêtres éclairées",
+ "grok/accueil-tableau": "Mains gantées d’électricien devant un tableau électrique ouvert",
+ "grok/accueil-interieur": "Salon rénové éclairé le soir par des suspensions chaudes",
+ "grok/accueil-local-technique": "Électricien de dos devant une grande armoire électrique éclairée",
+ "grok/accueil-cuivre": "Fils de cuivre dénudés en très gros plan",
+ "grok/conseil-diagnostic": "Testeur électrique posé sur un tableau électrique",
+ "grok/conseil-norme": "Prises électriques encastrées dans une cuisine rénovée",
+ "grok/conseil-pro": "Outils d’électricien rangés sur un établi",
+ "grok/conseil-solaire": "Panneaux solaires sur un toit de tuiles au soleil couchant",
+ "grok/trouver-rue": "Rue d’une petite ville française au crépuscule, fenêtres allumées",
+ "grok/electriciens-chantier": "Électricien de dos tirant des câbles dans une pièce en rénovation",
+ "grok/electriciens-atelier": "Bobines de câbles rangées dans un atelier",
+ "grok/conseils-tableau": "Tableau électrique moderne aux disjoncteurs alignés",
+ "grok/contact-lampe": "Ampoule à filament allumée dans la pénombre",
+ "grok/page-404": "Prise électrique débranchée posée au sol à côté d’une prise murale"
+}

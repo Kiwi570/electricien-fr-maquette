@@ -1,0 +1,12 @@
+[
+  { "nom": "Elec-baronnies", "cp": "05150", "ville": "Saint-André-de-Rosans", "dep": "05" },
+  { "nom": "RITIE SARL", "cp": "28150", "ville": "Boisville-la-Saint-Père", "dep": "28" },
+  { "nom": "SARL-MJE", "cp": "31600", "ville": "Seysses", "dep": "31" },
+  { "nom": "Sarl Nov’électric", "cp": "38690", "ville": "Le Grand-Lemps", "dep": "38" },
+  { "nom": "DATALAN / AMPHASE", "cp": "94400", "ville": "Vitry-sur-Seine", "dep": "94" },
+  { "nom": "AEG Vuadens", "cp": "74500", "ville": "Lugrin", "dep": "74" },
+  { "nom": "Philippe Bour", "cp": "33140", "ville": "Villenave-d’Ornon", "dep": "33" },
+  { "nom": "2CRISNAY, courants faibles", "cp": "03200", "ville": "Vichy", "dep": "03" },
+  { "nom": "ELEC-FR SERVICES", "cp": "25370", "ville": "Rochejean", "dep": "25" },
+  { "nom": "SARL CELEC", "cp": "90140", "ville": "Froidefontaine", "dep": "90" }
+]

@@ -1,0 +1,455 @@
+{
+  "date": "2026-11-16T15:02:12.660Z",
+  "plan": "/home/claude/electricien-fr-maquette/plan-images.json",
+  "attendus": 20,
+  "recus": 20,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [
+    {
+      "fichier": "accueil-local-technique.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "An electrician seen strictly from behind, in a plain dark work jacket, standing in front of a large open electrical distribution cabinet in a clean technical room, rows of breakers and neatly bundled cables, cool blue ambient light with a warm copper glow coming from the cabinet, face never visible. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "accueil-local-technique-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "An electrician seen strictly from behind, in a plain dark work jacket, standing in front of a large open electrical distribution cabinet in a clean technical room, rows of breakers and neatly bundled cables, cool blue ambient light with a warm copper glow coming from the cabinet, face never visible. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "trouver-rue.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A quiet residential street of a small French town at blue hour, a row of stone houses with many windows glowing warm, street lamps just switched on, wet cobblestones reflecting the light, deep blue sky in the upper third, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "trouver-rue-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A quiet residential street of a small French town at blue hour, a row of stone houses with many windows glowing warm, street lamps just switched on, wet cobblestones reflecting the light, deep blue sky in the upper third, nobody. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "electriciens-chantier.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "An electrician seen strictly from behind on the right side of the frame, wearing a plain dark work jacket and a tool belt, pulling a bundle of cables through an open ceiling in a bright room under renovation, white plaster walls, cable reels on the floor, warm work lamp light, calm empty space on the left, face never visible. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "electriciens-chantier-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "An electrician seen strictly from behind on the right side of the frame, wearing a plain dark work jacket and a tool belt, pulling a bundle of cables through an open ceiling in a bright room under renovation, white plaster walls, cable reels on the floor, warm work lamp light, calm empty space on the left, face never visible. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "conseils-tableau.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Front view of a brand new residential electrical panel mounted on a matte white wall, rows of blank white modular breakers with a few copper-coloured accents, perfectly tidy, soft warm light from the side, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "conseils-tableau-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "Front view of a brand new residential electrical panel mounted on a matte white wall, rows of blank white modular breakers with a few copper-coloured accents, perfectly tidy, soft warm light from the side, nobody. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "contact-lampe.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A single vintage filament light bulb hanging from a fabric cord, glowing warm copper orange in a dark night blue room, soft bokeh behind, calm empty space on the left, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "contact-lampe-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A single vintage filament light bulb hanging from a fabric cord, glowing warm copper orange in a dark night blue room, soft bokeh behind, calm empty space on the left, nobody. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "page-404.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A white electrical plug lying unplugged on a pale oak floor, its cable curling towards a white wall socket just out of reach, humorous but clean scene, soft evening light, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ],
+  "images": [
+    {
+      "nom": "grok/accueil-maison-soir",
+      "attendu": "accueil-maison-soir.jpg",
+      "fichier": "accueil-maison-soir.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": []
+    },
+    {
+      "nom": "grok/accueil-tableau",
+      "attendu": "accueil-tableau.jpg",
+      "fichier": "accueil-tableau.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/accueil-interieur",
+      "attendu": "accueil-interieur.jpg",
+      "fichier": "accueil-interieur.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": []
+    },
+    {
+      "nom": "grok/accueil-local-technique",
+      "attendu": "accueil-local-technique.jpg",
+      "fichier": "accueil-local-technique.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "An electrician seen strictly from behind, in a plain dark work jacket, standing in front of a large open electrical distribution cabinet in a clean technical room, rows of breakers and neatly bundled cables, cool blue ambient light with a warm copper glow coming from the cabinet, face never visible. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/accueil-local-technique",
+      "mobile": true,
+      "attendu": "accueil-local-technique-mobile.jpg",
+      "fichier": "accueil-local-technique-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "An electrician seen strictly from behind, in a plain dark work jacket, standing in front of a large open electrical distribution cabinet in a clean technical room, rows of breakers and neatly bundled cables, cool blue ambient light with a warm copper glow coming from the cabinet, face never visible. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/accueil-cuivre",
+      "attendu": "accueil-cuivre.jpg",
+      "fichier": "accueil-cuivre.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1536,
+      "hauteur": 1024,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/conseil-diagnostic",
+      "attendu": "conseil-diagnostic.jpg",
+      "fichier": "conseil-diagnostic.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/conseil-norme",
+      "attendu": "conseil-norme.jpg",
+      "fichier": "conseil-norme.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": []
+    },
+    {
+      "nom": "grok/conseil-pro",
+      "attendu": "conseil-pro.jpg",
+      "fichier": "conseil-pro.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/conseil-solaire",
+      "attendu": "conseil-solaire.jpg",
+      "fichier": "conseil-solaire.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1024,
+      "hauteur": 1536,
+      "boites": []
+    },
+    {
+      "nom": "grok/trouver-rue",
+      "attendu": "trouver-rue.jpg",
+      "fichier": "trouver-rue.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A quiet residential street of a small French town at blue hour, a row of stone houses with many windows glowing warm, street lamps just switched on, wet cobblestones reflecting the light, deep blue sky in the upper third, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/trouver-rue",
+      "mobile": true,
+      "attendu": "trouver-rue-mobile.jpg",
+      "fichier": "trouver-rue-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A quiet residential street of a small French town at blue hour, a row of stone houses with many windows glowing warm, street lamps just switched on, wet cobblestones reflecting the light, deep blue sky in the upper third, nobody. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/electriciens-chantier",
+      "attendu": "electriciens-chantier.jpg",
+      "fichier": "electriciens-chantier.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "An electrician seen strictly from behind on the right side of the frame, wearing a plain dark work jacket and a tool belt, pulling a bundle of cables through an open ceiling in a bright room under renovation, white plaster walls, cable reels on the floor, warm work lamp light, calm empty space on the left, face never visible. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/electriciens-chantier",
+      "mobile": true,
+      "attendu": "electriciens-chantier-mobile.jpg",
+      "fichier": "electriciens-chantier-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "An electrician seen strictly from behind on the right side of the frame, wearing a plain dark work jacket and a tool belt, pulling a bundle of cables through an open ceiling in a bright room under renovation, white plaster walls, cable reels on the floor, warm work lamp light, calm empty space on the left, face never visible. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/electriciens-atelier",
+      "attendu": "electriciens-atelier.jpg",
+      "fichier": "electriciens-atelier.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1536,
+      "hauteur": 1024,
+      "boites": []
+    },
+    {
+      "nom": "grok/conseils-tableau",
+      "attendu": "conseils-tableau.jpg",
+      "fichier": "conseils-tableau.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Front view of a brand new residential electrical panel mounted on a matte white wall, rows of blank white modular breakers with a few copper-coloured accents, perfectly tidy, soft warm light from the side, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/conseils-tableau",
+      "mobile": true,
+      "attendu": "conseils-tableau-mobile.jpg",
+      "fichier": "conseils-tableau-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Front view of a brand new residential electrical panel mounted on a matte white wall, rows of blank white modular breakers with a few copper-coloured accents, perfectly tidy, soft warm light from the side, nobody. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/contact-lampe",
+      "attendu": "contact-lampe.jpg",
+      "fichier": "contact-lampe.jpg",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A single vintage filament light bulb hanging from a fabric cord, glowing warm copper orange in a dark night blue room, soft bokeh behind, calm empty space on the left, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/contact-lampe",
+      "mobile": true,
+      "attendu": "contact-lampe-mobile.jpg",
+      "fichier": "contact-lampe-mobile.jpg",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A single vintage filament light bulb hanging from a fabric cord, glowing warm copper orange in a dark night blue room, soft bokeh behind, calm empty space on the left, nobody. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/page-404",
+      "attendu": "page-404.jpg",
+      "fichier": "page-404.jpg",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A white electrical plug lying unplugged on a pale oak floor, its cable curling towards a white wall socket just out of reach, humorous but clean scene, soft evening light, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, precise and reassuring mood, palette of deep night blue, warm copper orange and soft cream, blue-hour daylight mixed with warm tungsten accents, tactile copper wire, matte white plaster, brushed steel and pale oak, set in a small French town on a clear winter evening at blue hour, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ]
+}

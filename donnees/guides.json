@@ -1,0 +1,32 @@
+[
+  { "id": "diagnostic", "image": "grok/conseil-diagnostic", "alt": "Testeur électrique posé sur un tableau électrique", "surtitre": "Vendre ou louer",
+    "titre": "Le diagnostic électrique", "court": "Obligatoire quand l’installation a plus de 15 ans.",
+    "points": [
+      "Il est exigé pour vendre ou louer un logement dont l’installation intérieure d’électricité a plus de 15 ans.",
+      "Il reste valable 3 ans pour une vente et 6 ans pour une location.",
+      "Il est réalisé par un diagnostiqueur certifié. Les anomalies relevées se corrigent ensuite avec un électricien."
+    ],
+    "lien": { "texte": "La fiche de Service-Public.fr", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18692" } },
+  { "id": "norme", "image": "grok/conseil-norme", "alt": "Prises électriques au-dessus du plan de travail d’une cuisine rénovée", "surtitre": "La règle de l’art",
+    "titre": "La norme NF C 15-100", "court": "Nouvelle version obligatoire depuis septembre 2025.",
+    "points": [
+      "Elle fixe les règles des installations électriques à basse tension, logements compris.",
+      "Une nouvelle série de normes, parue en août 2024, remplace la version de 2002. Elle s’applique depuis le 1er septembre 2025.",
+      "À la fin des travaux, l’électricien vous remet le schéma de vos circuits : gardez-le avec les papiers du logement."
+    ] },
+  { "id": "choisir", "image": "grok/conseil-pro", "alt": "Outils d’électricien rangés sur un établi", "surtitre": "Avant de signer",
+    "titre": "Choisir son électricien", "court": "Un devis détaillé avant chaque intervention.",
+    "points": [
+      "Depuis le 1er avril 2017, un dépannage, une réparation ou un entretien électrique à domicile commence par un devis détaillé, quel que soit le montant, même en urgence.",
+      "La qualification Qualifelec, reconnue au niveau national, atteste les compétences d’une entreprise d’électricité.",
+      "Demandez l’attestation d’assurance de l’entreprise et comparez plusieurs devis : l’annuaire référence les électriciens sans juger de leurs compétences."
+    ],
+    "lien": { "texte": "Le site de Qualifelec", "url": "https://www.qualifelec.fr" } },
+  { "id": "solaire", "image": "grok/conseil-solaire", "alt": "Panneaux solaires sur un toit de tuiles à la tombée du jour", "surtitre": "Produire son électricité",
+    "titre": "Panneaux solaires", "court": "Un installateur certifié RGE pour revendre le surplus.",
+    "points": [
+      "Pour revendre le surplus au tarif d’obligation d’achat, l’installation doit être posée par un professionnel certifié RGE (label QualiPV pour le photovoltaïque).",
+      "La prime à l’autoconsommation a été supprimée en juin 2026.",
+      "Faites dimensionner l’installation par le professionnel avant de signer : orientation, ombre, consommation du foyer."
+    ] }
+]

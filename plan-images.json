@@ -1,0 +1,230 @@
+[
+ {
+  "source": "recu/grok/accueil-maison-soir.jpg",
+  "nom": "grok/accueil-maison-soir",
+  "role": "carte-service",
+  "page": "Accueil",
+  "emplacement": "Comment ça marche, carte 1 (Cherchez)",
+  "priorite": "Indispensable",
+  "alt": "Maison de ville à la tombée du jour, fenêtres éclairées",
+  "consigne_scene": "A two-storey stone town house seen from the quiet street at blue hour, several windows glowing with warm light, a front door with a small lit porch lamp, bare winter tree branches, nobody",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/accueil-tableau.jpg",
+  "nom": "grok/accueil-tableau",
+  "role": "carte-service",
+  "page": "Accueil",
+  "emplacement": "Comment ça marche, carte 2 (Comparez)",
+  "priorite": "Indispensable",
+  "alt": "Mains gantées d'électricien devant un tableau électrique ouvert",
+  "consigne_scene": "Close-up of an open modern residential electrical panel with neat rows of blank white modular circuit breakers and tidy copper-coloured wiring, a single person's two hands in plain dark work gloves at the lower edge of the frame adjusting one breaker, warm side light, no face, no body",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/accueil-interieur.jpg",
+  "nom": "grok/accueil-interieur",
+  "role": "carte-service",
+  "page": "Accueil",
+  "emplacement": "Comment ça marche, carte 3 (Appelez)",
+  "priorite": "Indispensable",
+  "alt": "Salon rénové éclairé le soir par des suspensions chaudes",
+  "consigne_scene": "A calm renovated living room in the evening lit by warm pendant lights and a few recessed spotlights, pale oak floor, white plaster walls, a simple sofa, large window showing deep blue sky, nobody",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/accueil-local-technique.jpg",
+  "mobile": true,
+  "nom": "grok/accueil-local-technique",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "zone_texte": "bas",
+  "page": "Accueil",
+  "emplacement": "Image qui s'ouvre en plein écran (51 620 électriciens)",
+  "priorite": "Indispensable",
+  "alt": "Électricien de dos devant une grande armoire électrique éclairée",
+  "consigne_scene": "An electrician seen strictly from behind, in a plain dark work jacket, standing in front of a large open electrical distribution cabinet in a clean technical room, rows of breakers and neatly bundled cables, cool blue ambient light with a warm copper glow coming from the cabinet, face never visible",
+  "beaute": 4,
+  "cadrage": [
+   52,
+   50
+  ],
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-cuivre.jpg",
+  "nom": "grok/accueil-cuivre",
+  "role": "section-fond",
+  "zone_texte": "gauche",
+  "page": "Accueil",
+  "emplacement": "Fond de l'appel final",
+  "priorite": "Indispensable",
+  "alt": "Fils de cuivre dénudés en très gros plan",
+  "consigne_scene": "Extreme macro of freshly stripped copper electrical wires fanning out from their insulation, glowing warm orange against a deep night blue background, shallow depth of field, calm negative space on the left half, no hands, no people",
+  "beaute": 5,
+  "largeurs": [
+   640,
+   1280,
+   1536
+  ]
+ },
+ {
+  "source": "recu/grok/conseil-diagnostic.jpg",
+  "nom": "grok/conseil-diagnostic",
+  "role": "carte-service",
+  "page": "Accueil et Conseils",
+  "emplacement": "Carte du guide Diagnostic électrique",
+  "priorite": "Indispensable",
+  "alt": "Testeur électrique posé sur un tableau électrique",
+  "consigne_scene": "A professional voltage tester with its probes resting on the steel cover of a closed residential electrical panel, soft warm light, pale wall behind, no hands, no people, no readable display",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/conseil-norme.jpg",
+  "nom": "grok/conseil-norme",
+  "role": "carte-service",
+  "page": "Accueil et Conseils",
+  "emplacement": "Carte du guide Norme NF C 15-100",
+  "priorite": "Indispensable",
+  "alt": "Prises électriques encastrées dans une cuisine rénovée",
+  "consigne_scene": "A row of modern white wall sockets above a pale oak kitchen worktop, matte white wall, soft evening light from under-cabinet strip lighting, a small ceramic bowl at the edge, nobody",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/conseil-pro.jpg",
+  "nom": "grok/conseil-pro",
+  "role": "carte-service",
+  "page": "Accueil et Conseils",
+  "emplacement": "Carte du guide Choisir un électricien",
+  "priorite": "Indispensable",
+  "alt": "Outils d'électricien rangés sur un établi",
+  "consigne_scene": "Electrician tools neatly laid out on a pale oak workbench seen from above at an angle: insulated screwdrivers, wire strippers, a coil of copper cable, a spirit level, warm side light, no hands, no people, no brand names",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/conseil-solaire.jpg",
+  "nom": "grok/conseil-solaire",
+  "role": "carte-service",
+  "page": "Conseils",
+  "emplacement": "Carte du guide Énergies renouvelables",
+  "priorite": "Conseillée",
+  "alt": "Panneaux solaires sur un toit de tuiles au soleil couchant",
+  "consigne_scene": "Dark solar panels neatly installed on a terracotta tile roof just after sunset, the last warm copper glow on the horizon raking across the panels, clear sky fading to deep blue, nobody",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/trouver-rue.jpg",
+  "source_mobile": "recu/grok/trouver-rue-mobile.jpg",
+  "mobile": true,
+  "nom": "grok/trouver-rue",
+  "role": "ouverture",
+  "zone_texte": "haut",
+  "page": "Trouver un électricien",
+  "emplacement": "Ouverture (bandeau sous le titre)",
+  "priorite": "Indispensable",
+  "alt": "Rue d'une petite ville française au crépuscule, fenêtres allumées",
+  "consigne_scene": "A quiet residential street of a small French town at blue hour, a row of stone houses with many windows glowing warm, street lamps just switched on, wet cobblestones reflecting the light, deep blue sky in the upper third, nobody",
+  "beaute": 5,
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ]
+ },
+ {
+  "source": "recu/grok/electriciens-chantier.jpg",
+  "source_mobile": "recu/grok/electriciens-chantier-mobile.jpg",
+  "mobile": true,
+  "nom": "grok/electriciens-chantier",
+  "role": "ouverture",
+  "zone_texte": "gauche",
+  "page": "Électriciens",
+  "emplacement": "Ouverture plein cadre",
+  "priorite": "Indispensable",
+  "alt": "Électricien de dos tirant des câbles dans une pièce en rénovation",
+  "consigne_scene": "An electrician seen strictly from behind on the right side of the frame, wearing a plain dark work jacket and a tool belt, pulling a bundle of cables through an open ceiling in a bright room under renovation, white plaster walls, cable reels on the floor, warm work lamp light, calm empty space on the left, face never visible",
+  "beaute": 4,
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ]
+ },
+ {
+  "source": "recu/grok/electriciens-atelier.jpg",
+  "nom": "grok/electriciens-atelier",
+  "role": "section-fond",
+  "zone_texte": "droite",
+  "page": "Électriciens",
+  "emplacement": "Fond de la section Témoignages",
+  "priorite": "Conseillée",
+  "alt": "Bobines de câbles rangées dans un atelier",
+  "consigne_scene": "Several spools of electrical cable in copper, black and grey neatly stacked on metal shelving in a tidy small workshop, warm tungsten light, deep blue shadows, calm empty space on the right, no people",
+  "beaute": 4,
+  "largeurs": [
+   640,
+   1280,
+   1536
+  ]
+ },
+ {
+  "source": "recu/grok/conseils-tableau.jpg",
+  "mobile": true,
+  "nom": "grok/conseils-tableau",
+  "role": "ouverture",
+  "zone_texte": "gauche",
+  "page": "Conseils",
+  "emplacement": "Ouverture scindée",
+  "priorite": "Indispensable",
+  "alt": "Tableau électrique moderne aux disjoncteurs alignés",
+  "consigne_scene": "Front view of a brand new residential electrical panel mounted on a matte white wall, rows of blank white modular breakers with a few copper-coloured accents, perfectly tidy, soft warm light from the side, nobody",
+  "beaute": 4,
+  "cadrage": [
+   66,
+   50
+  ],
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ]
+ },
+ {
+  "source": "recu/grok/contact-lampe.jpg",
+  "source_mobile": "recu/grok/contact-lampe-mobile.jpg",
+  "mobile": true,
+  "nom": "grok/contact-lampe",
+  "role": "ouverture",
+  "zone_texte": "gauche",
+  "page": "Contact",
+  "emplacement": "Ouverture scindée",
+  "priorite": "Conseillée",
+  "alt": "Ampoule à filament allumée dans la pénombre",
+  "consigne_scene": "A single vintage filament light bulb hanging from a fabric cord, glowing warm copper orange in a dark night blue room, soft bokeh behind, calm empty space on the left, nobody",
+  "beaute": 5,
+  "cadrage": [
+   58,
+   55
+  ],
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ]
+ },
+ {
+  "source": "recu/grok/page-404.jpg",
+  "nom": "grok/page-404",
+  "role": "404",
+  "page": "Page 404",
+  "emplacement": "Image en tête de la 404",
+  "priorite": "Conseillée",
+  "alt": "Prise électrique débranchée posée au sol à côté d'une prise murale",
+  "consigne_scene": "A white electrical plug lying unplugged on a pale oak floor, its cable curling towards a white wall socket just out of reach, humorous but clean scene, soft evening light, nobody",
+  "beaute": 4
+ }
+]

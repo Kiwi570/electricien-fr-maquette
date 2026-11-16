@@ -1,0 +1,15 @@
+{
+  "nom": "electricien.fr",
+  "adresse": "https://electricien-fr-maquette.vercel.app",
+  "siteActuel": "electricien.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "trouver", "electriciens", "conseils", "contact"],
+  "actionEntete": { "page": "electriciens", "ancre": "inscription" },
+  "couleurs": { "fond": "#0D1322", "texte": "#F3F0E8", "voile": "#121A2E", "ouverture": "#0D1322", "menu": "#0D1322", "theme": "#0D1322" },
+  "formeVoile": "glisse",
+  "contact": { "telephone": "", "telephoneLien": "", "email": "", "adresse": "" },
+  "polices": ["/assets/fonts/archivo.woff2", "/assets/fonts/instrument-sans.woff2"],
+  "imagePartage": "grok/accueil-local-technique-1280.webp",
+  "curseur": false
+}

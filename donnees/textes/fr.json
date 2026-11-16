@@ -1,0 +1,354 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Inscrire mon entreprise",
+    "actionEnteteCourt": "S’inscrire",
+    "appeler": "Appeler",
+    "chercher": "Chercher",
+    "sommaire": "Sommaire",
+    "confort": "L’annuaire",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de démonstration : les recherches, l’inscription et les formulaires sont simulés.",
+    "avertissement": "electricien.fr référence les électriciens sans juger de la qualité ni des compétences des entreprises : comparez et demandez un devis.",
+    "mentionsLegales": "Mentions légales",
+    "confidentialite": "Politique de confidentialité",
+    "aCompleter": "à compléter",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "L’annuaire des électriciens",
+    "barreTrouver": "Trouver",
+    "barrePro": "Électriciens",
+    "menuTrouver": "Trouver un électricien",
+    "menuPro": "Inscrire mon entreprise",
+    "piedTitre": "L’annuaire des électriciens en France.",
+    "piedPros": "Électriciens",
+    "piedPresence": "Vérifier ma présence",
+    "piedInscription": "Inscrire mon entreprise",
+    "piedOffres": "Les offres",
+    "rechercheLibelle": "Ville ou code postal",
+    "rechercheIndice": "Exemples : 38690, Vichy, Gironde, 74",
+    "compteur": "électriciens référencés",
+    "carteLibelle": "Carte des départements de France. Choisissez une région dans la liste pour parcourir ses départements.",
+    "carteBulle": "Voir les électriciens",
+    "carteLegende": "En cuivre : les départements des 10 derniers inscrits.",
+    "piedLegal": "Mentions légales : à compléter · Politique de confidentialité : à compléter",
+    "rechercheLibelleLong": "Ville, code postal ou département"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "electricien.fr : trouver un électricien près de chez vous",
+      "description": "L’annuaire des électriciens en France : 51 620 électriciens référencés, recherche gratuite par ville, code postal, département ou région.",
+      "nav": "Accueil",
+      "partageAlt": "electricien.fr, un électricien près de chez vous",
+      "accroche": "Un électricien, près de chez vous."
+    },
+    "trouver": {
+      "titre": "Trouver un électricien par département : electricien.fr",
+      "description": "Cherchez un électricien par ville, code postal, département ou région, en métropole et en outre-mer.",
+      "nav": "Trouver un électricien",
+      "partageAlt": "Trouver un électricien sur la carte de France",
+      "accroche": "Trouvez votre électricien, département par département."
+    },
+    "electriciens": {
+      "titre": "Électriciens : rejoindre l’annuaire electricien.fr",
+      "description": "Fiche coordonnées à 320 € HT ou mise en avant à 750 € HT par département et par an : faites-vous trouver par vos prochains clients.",
+      "nav": "Électriciens",
+      "partageAlt": "Électriciens : rejoindre l’annuaire electricien.fr",
+      "accroche": "Faites-vous trouver par vos prochains clients."
+    },
+    "conseils": {
+      "titre": "Conseils avant de faire venir un électricien : electricien.fr",
+      "description": "Diagnostic électrique, norme NF C 15-100, devis, panneaux solaires : l’essentiel avant d’appeler un électricien.",
+      "nav": "Conseils",
+      "partageAlt": "Conseils avant de faire venir un électricien",
+      "accroche": "Avant d’appeler un électricien."
+    },
+    "contact": {
+      "titre": "Contact : electricien.fr",
+      "description": "Une question sur l’annuaire, votre fiche ou votre inscription : écrivez à l’équipe d’electricien.fr.",
+      "nav": "Contact",
+      "partageAlt": "Contacter l’équipe d’electricien.fr",
+      "accroche": "Une question ? Écrivez-nous."
+    },
+    "404": {
+      "titre": "Page introuvable : electricien.fr",
+      "description": "Cette page n’existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Plus de courant sur cette page."
+    }
+  },
+  "accueil": {
+    "ouverture": {
+      "surtitre": "Annuaire national · recherche gratuite",
+      "titre1": "Un électricien,",
+      "titre2": "près de chez vous.",
+      "texte": "Cherchez parmi les électriciens référencés partout en France, par ville, code postal ou département. Ou touchez votre département sur la carte.",
+      "carteAide": "Touchez un département"
+    },
+    "etapes": {
+      "surtitre": "Comment ça marche",
+      "titre": "Trois gestes, et le courant passe.",
+      "e1t": "Cherchez",
+      "e1": "Tapez votre ville ou votre code postal, ou touchez votre département sur la carte.",
+      "e2t": "Comparez",
+      "e2": "Chaque fiche donne les coordonnées de l’électricien et, s’il en a un, le lien vers son site.",
+      "e3t": "Appelez",
+      "e3": "Vous contactez directement l’électricien de votre choix et lui demandez un devis détaillé."
+    },
+    "plein": {
+      "mot1": "51 620",
+      "mot2": "électriciens",
+      "legende": "référencés dans l’annuaire, en métropole et en outre-mer.",
+      "titre": "51 620 électriciens référencés"
+    },
+    "regions": {
+      "surtitre": "Toute la France",
+      "titre": "Treize régions, et l’outre-mer.",
+      "texte": "Choisissez votre région pour parcourir ses départements."
+    },
+    "inscrits": {
+      "surtitre": "Derniers inscrits",
+      "titre": "Ils viennent de rejoindre l’annuaire.",
+      "texte": "Les dix dernières entreprises inscrites, de Vichy à Vitry-sur-Seine.",
+      "region": "Derniers inscrits, bandeau défilant"
+    },
+    "conseils": {
+      "surtitre": "Conseils",
+      "titre": "Avant de faire venir un électricien.",
+      "lire": "Lire le conseil",
+      "tous": "Tous les conseils"
+    },
+    "pros": {
+      "surtitre": "Vous êtes électricien ?",
+      "titre1": "Faites-vous trouver",
+      "titre2": "par vos prochains clients.",
+      "o1prix": "320",
+      "o1unite": "€ HT, une seule fois",
+      "o1": "Vos coordonnées dans l’annuaire, valables toute la vie du site.",
+      "o2prix": "750",
+      "o2unite": "€ HT par département et par an",
+      "o2": "Votre fiche mise en avant dans les résultats, avec votre logo et un lien vers votre site.",
+      "offres": "Voir les offres",
+      "presence": "Vérifier ma présence"
+    },
+    "fin": {
+      "titre1": "Le bon électricien,",
+      "titre2": "à deux pas.",
+      "texte": "Parcourez la carte de France, département par département.",
+      "trouver": "Chercher sur la carte",
+      "pro": "Inscrire mon entreprise"
+    },
+    "altCuivre": "Fils de cuivre dénudés en très gros plan"
+  },
+  "trouver": {
+    "ouverture": {
+      "surtitre": "Annuaire · métropole et outre-mer",
+      "titre1": "Trouvez votre",
+      "titre2": "électricien.",
+      "texte": "Une ville, un code postal, un numéro ou un nom de département : l’annuaire vous montre les électriciens référencés près de chez vous.",
+      "info": "51 620 électriciens référencés · recherche gratuite"
+    },
+    "carte": {
+      "surtitre": "La carte",
+      "titre": "Choisissez votre région, puis votre département.",
+      "regions": "Régions",
+      "retour": "Toutes les régions",
+      "departements": "Départements de la région"
+    },
+    "resultats": {
+      "titre": "Électriciens du département",
+      "vide": "Choisissez un département sur la carte, dans la liste ou par la recherche.",
+      "aucun": "La maquette ne contient que les 10 derniers inscrits. Sur le site, ce département affichera tous ses électriciens référencés, avec leurs coordonnées.",
+      "trouves": "Les dix derniers inscrits",
+      "demo": "Maquette : seules les 10 dernières inscriptions sont chargées.",
+      "introuvable": "Nous ne reconnaissons pas cette recherche. Essayez un code postal à 5 chiffres, un numéro ou un nom de département.",
+      "inscrit": "Inscrit récemment"
+    },
+    "choisir": {
+      "surtitre": "Bien choisir",
+      "titre": "Trois réflexes avant de signer.",
+      "c1t": "Un devis détaillé",
+      "c1": "Obligatoire avant tout dépannage, réparation ou entretien à domicile, quel que soit le montant.",
+      "c2t": "Une qualification",
+      "c2": "Qualifelec atteste les compétences d’une entreprise d’électricité, au niveau national.",
+      "c3t": "Plusieurs avis",
+      "c3": "Comparez au moins deux devis : l’annuaire référence les électriciens sans juger de leurs compétences.",
+      "lien": "Tous nos conseils"
+    },
+    "fin": {
+      "titre": "Votre entreprise n’apparaît pas ?",
+      "texte": "Vérifiez votre présence dans l’annuaire, ou inscrivez-vous en quelques minutes.",
+      "presence": "Vérifier ma présence",
+      "inscription": "Inscrire mon entreprise"
+    },
+    "altRue": "Rue d’une petite ville au crépuscule, fenêtres allumées"
+  },
+  "electriciens": {
+    "ouverture": {
+      "surtitre": "Pour les électriciens",
+      "titre1": "Faites-vous",
+      "titre2": "trouver.",
+      "texte": "Les particuliers et les entreprises cherchent un électricien près de chez eux. Soyez dans l’annuaire, au bon endroit.",
+      "info": "Dès 320 € HT, une seule fois",
+      "action": "Inscrire mon entreprise",
+      "presence": "Vérifier ma présence"
+    },
+    "offres": {
+      "surtitre": "Les offres",
+      "titre": "Deux façons d’être vu.",
+      "o1nom": "Fiche coordonnées",
+      "o1prix": "320",
+      "o1unite": "€ HT",
+      "o1rythme": "une seule fois",
+      "o1a": "Votre entreprise et vos coordonnées dans l’annuaire",
+      "o1b": "Trouvée par ville, code postal et département",
+      "o1c": "Valable toute la vie du site",
+      "o2nom": "Mise en avant",
+      "o2prix": "750",
+      "o2unite": "€ HT",
+      "o2rythme": "par département et par an",
+      "o2a": "Votre fiche en avant dans les résultats du département",
+      "o2b": "Votre logo",
+      "o2c": "Un lien vers votre site",
+      "choisir": "Choisir cette offre"
+    },
+    "demo": {
+      "surtitre": "La mise en avant",
+      "titre": "Ce que voit un particulier qui cherche dans votre département.",
+      "texte": "Faites défiler : votre fiche passe devant, avec votre logo et le lien vers votre site.",
+      "votre": "Votre entreprise",
+      "ville": "Votre ville",
+      "logo": "Logo",
+      "site": "Votre site",
+      "illustratif": "Illustration : fiches neutres, sans vraies entreprises"
+    },
+    "temoignages": {
+      "surtitre": "Ils l’ont fait",
+      "titre": "Les premiers appels, dès l’inscription.",
+      "alt": "Bobines de câbles rangées dans un atelier"
+    },
+    "presence": {
+      "surtitre": "Vérifiez votre présence",
+      "titre": "Êtes-vous déjà dans l’annuaire ?",
+      "texte": "Tapez le nom de votre entreprise ou votre code postal.",
+      "libelle": "Nom de l’entreprise ou code postal",
+      "bouton": "Vérifier",
+      "trouve": "Bonne nouvelle : votre entreprise est référencée.",
+      "absent": "Nous ne trouvons pas cette entreprise dans la maquette, qui ne contient que les 10 derniers inscrits. Inscrivez-vous ci-dessous.",
+      "demo": "Maquette : la vérification porte sur les 10 derniers inscrits."
+    },
+    "inscription": {
+      "surtitre": "Inscription",
+      "titre": "Inscrire mon entreprise.",
+      "texte": "Trois étapes : votre entreprise, votre offre, votre récapitulatif.",
+      "etape": "Étape",
+      "sur": "sur",
+      "e1": "Votre entreprise",
+      "e2": "Votre offre",
+      "e3": "Récapitulatif",
+      "nom": "Nom de l’entreprise",
+      "cp": "Code postal",
+      "telephone": "Téléphone",
+      "email": "E-mail",
+      "offre": "Offre choisie",
+      "departements": "Départements de la mise en avant",
+      "departementsAide": "Numéros séparés par des virgules, par exemple 38, 73",
+      "suivant": "Continuer",
+      "precedent": "Retour",
+      "envoyer": "Envoyer ma demande",
+      "total": "Total",
+      "parAn": "par an",
+      "uneFois": "une seule fois",
+      "recapEntreprise": "Entreprise",
+      "recapOffre": "Offre",
+      "mention": "Vos coordonnées servent seulement à traiter votre inscription. Politique de confidentialité : à compléter.",
+      "simule": "Maquette : rien n’a été envoyé. Sur le site, l’inscription sera transmise à l’équipe d’electricien.fr.",
+      "erreurNom": "Indiquez le nom de votre entreprise.",
+      "erreurCp": "Indiquez un code postal à 5 chiffres.",
+      "erreurTel": "Indiquez un numéro de téléphone à 10 chiffres.",
+      "erreurEmail": "Indiquez une adresse e-mail valide.",
+      "erreurDeps": "Indiquez au moins un numéro de département.",
+      "e1court": "Entreprise",
+      "e2court": "Offre",
+      "e3court": "Envoi"
+    },
+    "fin": {
+      "titre": "Une question avant de vous inscrire ?",
+      "texte": "L’équipe vous répond sur les offres, la mise à jour de votre fiche ou la mise en avant.",
+      "contact": "Poser une question"
+    }
+  },
+  "conseils": {
+    "ouverture": {
+      "surtitre": "Conseils pratiques",
+      "titre1": "Avant d’appeler",
+      "titre2": "un électricien.",
+      "texte": "Diagnostic, norme, devis, panneaux solaires : l’essentiel, vérifié dans les textes, pour bien préparer vos travaux.",
+      "info": "4 conseils · à jour en novembre 2026",
+      "action": "Lire les conseils"
+    },
+    "liens": {
+      "surtitre": "Sources officielles",
+      "titre": "Pour aller plus loin.",
+      "ouvrir": "Ouvrir le site (nouvel onglet)"
+    },
+    "fin": {
+      "titre": "Prêt pour les travaux ?",
+      "texte": "Trouvez un électricien référencé dans votre département.",
+      "trouver": "Trouver un électricien"
+    },
+    "altTableau": "Tableau électrique neuf aux disjoncteurs alignés"
+  },
+  "contact": {
+    "ouverture": {
+      "surtitre": "Contact",
+      "titre1": "Une question ?",
+      "titre2": "Écrivez-nous.",
+      "texte": "Sur l’annuaire, votre fiche, votre inscription ou la mise en avant : l’équipe d’electricien.fr vous répond.",
+      "info": "Particuliers et électriciens",
+      "action": "Écrire à l’équipe"
+    },
+    "formulaire": {
+      "titre": "Votre message",
+      "profil": "Vous êtes",
+      "particulier": "Un particulier",
+      "electricien": "Un électricien",
+      "nom": "Nom",
+      "email": "E-mail",
+      "sujet": "Sujet",
+      "sTrouver": "Trouver un électricien",
+      "sInscription": "Inscription dans l’annuaire",
+      "sFiche": "Mise à jour de ma fiche",
+      "sAutre": "Autre question",
+      "message": "Message",
+      "envoyer": "Envoyer",
+      "mention": "Vos coordonnées servent seulement à vous répondre. Politique de confidentialité : à compléter.",
+      "simule": "Maquette : rien n’a été envoyé. Sur le site, votre message partira à l’équipe d’electricien.fr.",
+      "erreurNom": "Indiquez votre nom.",
+      "erreurEmail": "Indiquez une adresse e-mail valide.",
+      "erreurMessage": "Écrivez votre message."
+    },
+    "rapide": {
+      "titre": "Réponses rapides",
+      "r1": "Trouver un électricien près de chez moi",
+      "r2": "Savoir si mon entreprise est déjà référencée",
+      "r3": "Connaître les offres et leurs prix",
+      "r4": "Préparer mes travaux"
+    },
+    "alt": "Ampoule à filament allumée dans la pénombre"
+  },
+  "introuvable": {
+    "surtitre": "Erreur 404",
+    "titre": "Plus de courant sur cette page.",
+    "texte": "Le lien est peut-être ancien, ou l’adresse mal tapée. Rebranchez-vous sur l’accueil ou cherchez directement un électricien.",
+    "retour": "Retour à l’accueil",
+    "trouver": "Trouver un électricien",
+    "alt": "Prise électrique débranchée posée au sol"
+  }
+}

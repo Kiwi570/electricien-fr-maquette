@@ -1,0 +1,18 @@
+[
+  { "id": "auvergne-rhone-alpes", "nom": "Auvergne-Rhône-Alpes" },
+  { "id": "bourgogne-franche-comte", "nom": "Bourgogne-Franche-Comté" },
+  { "id": "bretagne", "nom": "Bretagne" },
+  { "id": "centre-val-de-loire", "nom": "Centre-Val de Loire" },
+  { "id": "corse", "nom": "Corse" },
+  { "id": "grand-est", "nom": "Grand Est" },
+  { "id": "hauts-de-france", "nom": "Hauts-de-France" },
+  { "id": "ile-de-france", "nom": "Île-de-France" },
+  { "id": "normandie", "nom": "Normandie" },
+  { "id": "nouvelle-aquitaine", "nom": "Nouvelle-Aquitaine" },
+  { "id": "occitanie", "nom": "Occitanie" },
+  { "id": "pays-de-la-loire", "nom": "Pays de la Loire" },
+  { "id": "provence-alpes-cote-d-azur", "nom": "Provence-Alpes-Côte d’Azur" },
+  { "id": "outre-mer", "nom": "Outre-mer", "departements": [
+    { "code": "971", "nom": "Guadeloupe" }, { "code": "972", "nom": "Martinique" }, { "code": "973", "nom": "Guyane" },
+    { "code": "974", "nom": "La Réunion" }, { "code": "976", "nom": "Mayotte" } ] }
+]

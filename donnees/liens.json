@@ -1,0 +1,6 @@
+[
+  { "nom": "Qualifelec", "texte": "La qualification des entreprises de l’équipement électrique.", "url": "https://www.qualifelec.fr" },
+  { "nom": "Médiateur national de l’énergie", "texte": "Un litige avec votre fournisseur d’électricité ou de gaz.", "url": "https://www.energie-mediateur.fr" },
+  { "nom": "Commission de régulation de l’énergie", "texte": "Le fonctionnement des marchés de l’électricité.", "url": "https://www.cre.fr" },
+  { "nom": "ONISEP", "texte": "Le métier d’électricien et ses formations.", "url": "https://www.onisep.fr" }
+]

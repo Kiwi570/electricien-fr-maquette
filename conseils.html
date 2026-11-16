@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Conseils avant de faire venir un électricien : electricien.fr</title>
+<meta name="description" content="Diagnostic électrique, norme NF C 15-100, devis, panneaux solaires : l’essentiel avant d’appeler un électricien.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://electricien-fr-maquette.vercel.app/conseils">
+<style>:root{--fond:#0D1322;--texte:#F3F0E8;--voile-fond:#121A2E;--ouverture-fond:#0D1322;--menu-fond:#0D1322}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0D1322">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="electricien.fr">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Conseils avant de faire venir un électricien : electricien.fr">
+<meta property="og:description" content="Diagnostic électrique, norme NF C 15-100, devis, panneaux solaires : l’essentiel avant d’appeler un électricien.">
+<meta property="og:url" content="https://electricien-fr-maquette.vercel.app/conseils">
+<meta property="og:image" content="https://electricien-fr-maquette.vercel.app/assets/partage/conseils-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Conseils avant de faire venir un électricien">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"electricien.fr","url":"https://electricien-fr-maquette.vercel.app/","description":"Annuaire des électriciens en France : recherche par région, département ou code postal.","inLanguage":"fr-FR"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Conseils</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom marque">electricien<b>.fr</b></p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">L’annuaire des électriciens</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="34" height="34"><span class="marque">electricien<b>.fr</b></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/trouver" data-libelle="Trouver un électricien">Trouver un électricien</a></li><li><a href="/electriciens" data-libelle="Électriciens">Électriciens</a></li><li><a href="/conseils" data-libelle="Conseils" aria-current="page">Conseils</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton bouton--entete" href="/electriciens#inscription" data-libelle="Électriciens"><span class="long">Inscrire mon entreprise</span><span class="court" aria-hidden="true">S’inscrire</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/trouver" class="menu-lien" data-libelle="Trouver un électricien">Trouver un électricien</a></li><li style="--i:2"><a href="/electriciens" class="menu-lien" data-libelle="Électriciens">Électriciens</a></li><li style="--i:3"><a href="/conseils" class="menu-lien" data-libelle="Conseils" aria-current="page">Conseils</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-actions"><a href="/trouver" class="bouton" data-libelle="Trouver un électricien">Trouver un électricien</a> <a href="/electriciens#inscription" class="bouton bouton--contour" data-libelle="Électriciens">Inscrire mon entreprise</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv--conseils" id="debut">
+  <div class="ouv-conseils-texte">
+    <p class="surtitre" data-anime="gsap" data-entree>Conseils pratiques</p>
+    <h1 class="titre-xxl"><span class="ligne-masque"><span class="intro-ligne" data-anime="gsap">Avant d’appeler</span></span><span class="ligne-masque"><span class="intro-ligne" data-anime="gsap"><em>un électricien.</em></span></span></h1>
+    <p class="ouv-chapo masque-ecran-bas" data-anime="gsap" data-entree>Diagnostic, norme, devis, panneaux solaires : l’essentiel, vérifié dans les textes, pour bien préparer vos travaux.</p>
+    <p class="actions" data-anime="gsap" data-entree><a class="bouton" href="#guides" data-action-principale data-survol="magnetique">Lire les conseils</a></p>
+    <p class="info-cle" data-info-cle data-anime="gsap" data-entree><span class="pastille" aria-hidden="true"></span>4 conseils · à jour en novembre 2026</p>
+  </div>
+  <div class="ouv-conseils-visuel">
+    <figure class="media ouv-conseils-media" data-grok data-fx="zoom" data-fx-force="12" data-iris-centre style="--cadrage:66% 50%;--cadrage-mobile:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/conseils-tableau-mobile-640.webp 640w" sizes="(max-width: 760px) 100vw, 50vw">
+    <img src="/assets/images/grok/conseils-tableau-1280.webp" srcset="/assets/images/grok/conseils-tableau-640.webp 640w, /assets/images/grok/conseils-tableau-1280.webp 1280w, /assets/images/grok/conseils-tableau-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Tableau électrique neuf aux disjoncteurs alignés" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <ol class="sommaire-guides" aria-label="Sommaire"><li><a href="#diagnostic"><span class="chiffre">01</span> Le diagnostic électrique</a></li><li><a href="#norme"><span class="chiffre">02</span> La norme NF C 15-100</a></li><li><a href="#choisir"><span class="chiffre">03</span> Choisir son électricien</a></li><li><a href="#solaire"><span class="chiffre">04</span> Panneaux solaires</a></li></ol>
+  </div>
+</section>
+<div id="guides">
+<section class="section guide" id="diagnostic">
+  <div class="conteneur guide-grille">
+    <figure class="media guide-media" data-grok data-anime="rideau" style="--cadrage:49% 45%">
+  <picture>
+    <img src="/assets/images/grok/conseil-diagnostic-784.webp" srcset="/assets/images/grok/conseil-diagnostic-480.webp 480w, /assets/images/grok/conseil-diagnostic-640.webp 640w, /assets/images/grok/conseil-diagnostic-784.webp 784w" sizes="(max-width: 760px) 88vw, 42vw" alt="Testeur électrique posé sur un tableau électrique" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="guide-texte">
+      <p class="guide-num chiffre" aria-hidden="true">01</p>
+      <p class="surtitre" data-anime>Vendre ou louer</p>
+      <h2 class="titre-l" data-anime="lignes">Le diagnostic électrique</h2>
+      <p class="guide-court" data-anime>Obligatoire quand l’installation a plus de 15 ans.</p>
+      <ul class="guide-points" data-anime="cascade"><li>Il est exigé pour vendre ou louer un logement dont l’installation intérieure d’électricité a plus de 15 ans.</li><li>Il reste valable 3 ans pour une vente et 6 ans pour une location.</li><li>Il est réalisé par un diagnostiqueur certifié. Les anomalies relevées se corrigent ensuite avec un électricien.</li></ul>
+      <p data-anime><a class="lien-fleche" href="https://www.service-public.gouv.fr/particuliers/vosdroits/F18692" target="_blank" rel="noopener">La fiche de Service-Public.fr<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </div>
+</section><section class="section guide guide--inverse clair" id="norme">
+  <div class="conteneur guide-grille">
+    <figure class="media guide-media" data-grok data-anime="rideau" style="--cadrage:68% 49%">
+  <picture>
+    <img src="/assets/images/grok/conseil-norme-784.webp" srcset="/assets/images/grok/conseil-norme-480.webp 480w, /assets/images/grok/conseil-norme-640.webp 640w, /assets/images/grok/conseil-norme-784.webp 784w" sizes="(max-width: 760px) 88vw, 42vw" alt="Prises électriques au-dessus du plan de travail d’une cuisine rénovée" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="guide-texte">
+      <p class="guide-num chiffre" aria-hidden="true">02</p>
+      <p class="surtitre" data-anime>La règle de l’art</p>
+      <h2 class="titre-l" data-anime="lignes">La norme NF C 15-100</h2>
+      <p class="guide-court" data-anime>Nouvelle version obligatoire depuis septembre 2025.</p>
+      <ul class="guide-points" data-anime="cascade"><li>Elle fixe les règles des installations électriques à basse tension, logements compris.</li><li>Une nouvelle série de normes, parue en août 2024, remplace la version de 2002. Elle s’applique depuis le 1er septembre 2025.</li><li>À la fin des travaux, l’électricien vous remet le schéma de vos circuits : gardez-le avec les papiers du logement.</li></ul>
+    </div>
+  </div>
+</section><section class="section guide" id="choisir">
+  <div class="conteneur guide-grille">
+    <figure class="media guide-media" data-grok data-anime="rideau" style="--cadrage:54% 43%">
+  <picture>
+    <img src="/assets/images/grok/conseil-pro-784.webp" srcset="/assets/images/grok/conseil-pro-480.webp 480w, /assets/images/grok/conseil-pro-640.webp 640w, /assets/images/grok/conseil-pro-784.webp 784w" sizes="(max-width: 760px) 88vw, 42vw" alt="Outils d’électricien rangés sur un établi" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="guide-texte">
+      <p class="guide-num chiffre" aria-hidden="true">03</p>
+      <p class="surtitre" data-anime>Avant de signer</p>
+      <h2 class="titre-l" data-anime="lignes">Choisir son électricien</h2>
+      <p class="guide-court" data-anime>Un devis détaillé avant chaque intervention.</p>
+      <ul class="guide-points" data-anime="cascade"><li>Depuis le 1er avril 2017, un dépannage, une réparation ou un entretien électrique à domicile commence par un devis détaillé, quel que soit le montant, même en urgence.</li><li>La qualification Qualifelec, reconnue au niveau national, atteste les compétences d’une entreprise d’électricité.</li><li>Demandez l’attestation d’assurance de l’entreprise et comparez plusieurs devis : l’annuaire référence les électriciens sans juger de leurs compétences.</li></ul>
+      <p data-anime><a class="lien-fleche" href="https://www.qualifelec.fr" target="_blank" rel="noopener">Le site de Qualifelec<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+  </div>
+</section><section class="section guide guide--inverse clair" id="solaire">
+  <div class="conteneur guide-grille">
+    <figure class="media guide-media" data-grok data-anime="rideau" style="--cadrage:56% 62%">
+  <picture>
+    <img src="/assets/images/grok/conseil-solaire-784.webp" srcset="/assets/images/grok/conseil-solaire-480.webp 480w, /assets/images/grok/conseil-solaire-640.webp 640w, /assets/images/grok/conseil-solaire-784.webp 784w" sizes="(max-width: 760px) 88vw, 42vw" alt="Panneaux solaires sur un toit de tuiles à la tombée du jour" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="guide-texte">
+      <p class="guide-num chiffre" aria-hidden="true">04</p>
+      <p class="surtitre" data-anime>Produire son électricité</p>
+      <h2 class="titre-l" data-anime="lignes">Panneaux solaires</h2>
+      <p class="guide-court" data-anime>Un installateur certifié RGE pour revendre le surplus.</p>
+      <ul class="guide-points" data-anime="cascade"><li>Pour revendre le surplus au tarif d’obligation d’achat, l’installation doit être posée par un professionnel certifié RGE (label QualiPV pour le photovoltaïque).</li><li>La prime à l’autoconsommation a été supprimée en juin 2026.</li><li>Faites dimensionner l’installation par le professionnel avant de signer : orientation, ombre, consommation du foyer.</li></ul>
+    </div>
+  </div>
+</section>
+</div>
+<section class="section liens" id="sources">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Sources officielles</p>
+      <h2 class="titre-l" data-anime="lignes">Pour aller plus loin.</h2>
+    </div>
+    <ul class="liens-grille" data-anime="cascade" data-visuel>
+      <li><a class="lien-carte" href="https://www.qualifelec.fr" target="_blank" rel="noopener"><strong>Qualifelec</strong><span>La qualification des entreprises de l’équipement électrique.</span><span class="lien-carte-fleche" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span><span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a class="lien-carte" href="https://www.energie-mediateur.fr" target="_blank" rel="noopener"><strong>Médiateur national de l’énergie</strong><span>Un litige avec votre fournisseur d’électricité ou de gaz.</span><span class="lien-carte-fleche" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span><span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a class="lien-carte" href="https://www.cre.fr" target="_blank" rel="noopener"><strong>Commission de régulation de l’énergie</strong><span>Le fonctionnement des marchés de l’électricité.</span><span class="lien-carte-fleche" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span><span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a class="lien-carte" href="https://www.onisep.fr" target="_blank" rel="noopener"><strong>ONISEP</strong><span>Le métier d’électricien et ses formations.</span><span class="lien-carte-fleche" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span><span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+    </ul>
+  </div>
+</section>
+<section class="section clair appel" id="fin">
+  <div class="conteneur appel-corps">
+    <h2 class="titre-l" data-anime="lignes">Prêt pour les travaux ?</h2>
+    <p data-anime>Trouvez un électricien référencé dans votre département.</p>
+    <p class="actions" data-anime><a href="/trouver" class="bouton" data-libelle="Trouver un électricien" data-survol="magnetique">Trouver un électricien</a></p>
+  </div>
+  <svg class="appel-trait" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M0 70 C 180 20 360 20 520 70 S 860 110 1000 50 S 1150 30 1200 40" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="marque marque--grande">electricien<b>.fr</b></p>
+      <p>L’annuaire des électriciens en France.</p>
+      <p class="pied-avertissement">electricien.fr référence les électriciens sans juger de la qualité ni des compétences des entreprises : comparez et demandez un devis.</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/trouver" data-libelle="Trouver un électricien">Trouver un électricien</a></li><li><a href="/electriciens" data-libelle="Électriciens">Électriciens</a></li><li><a href="/conseils" data-libelle="Conseils" aria-current="page">Conseils</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Électriciens</p>
+      <ul>
+        <li><a href="/electriciens#offres" data-libelle="Électriciens">Les offres</a></li>
+        <li><a href="/electriciens#presence" data-libelle="Électriciens">Vérifier ma présence</a></li>
+        <li><a href="/electriciens#inscription" data-libelle="Électriciens">Inscrire mon entreprise</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : les recherches, l’inscription et les formulaires sont simulés.</p><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>© electricien.fr</p></div>
+</footer>
+<div data-barre-fixe>
+  <a href="/trouver" class="bouton" data-libelle="Trouver un électricien">Trouver</a>
+  <a href="/electriciens" class="bouton bouton--contour" data-libelle="Électriciens">Électriciens</a>
+</div>
+</body>
+</html>

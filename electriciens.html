@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Électriciens : rejoindre l’annuaire electricien.fr</title>
+<meta name="description" content="Fiche coordonnées à 320 € HT ou mise en avant à 750 € HT par département et par an : faites-vous trouver par vos prochains clients.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://electricien-fr-maquette.vercel.app/electriciens">
+<style>:root{--fond:#0D1322;--texte:#F3F0E8;--voile-fond:#121A2E;--ouverture-fond:#0D1322;--menu-fond:#0D1322}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0D1322">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="electricien.fr">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Électriciens : rejoindre l’annuaire electricien.fr">
+<meta property="og:description" content="Fiche coordonnées à 320 € HT ou mise en avant à 750 € HT par département et par an : faites-vous trouver par vos prochains clients.">
+<meta property="og:url" content="https://electricien-fr-maquette.vercel.app/electriciens">
+<meta property="og:image" content="https://electricien-fr-maquette.vercel.app/assets/partage/electriciens-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Électriciens : rejoindre l’annuaire electricien.fr">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"electricien.fr","url":"https://electricien-fr-maquette.vercel.app/","description":"Annuaire des électriciens en France : recherche par région, département ou code postal.","inLanguage":"fr-FR"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Électriciens</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom marque">electricien<b>.fr</b></p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">L’annuaire des électriciens</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="34" height="34"><span class="marque">electricien<b>.fr</b></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/trouver" data-libelle="Trouver un électricien">Trouver un électricien</a></li><li><a href="/electriciens" data-libelle="Électriciens" aria-current="page">Électriciens</a></li><li><a href="/conseils" data-libelle="Conseils">Conseils</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton bouton--entete" href="/electriciens#inscription" data-libelle="Électriciens"><span class="long">Inscrire mon entreprise</span><span class="court" aria-hidden="true">S’inscrire</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/trouver" class="menu-lien" data-libelle="Trouver un électricien">Trouver un électricien</a></li><li style="--i:2"><a href="/electriciens" class="menu-lien" data-libelle="Électriciens" aria-current="page">Électriciens</a></li><li style="--i:3"><a href="/conseils" class="menu-lien" data-libelle="Conseils">Conseils</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-actions"><a href="/trouver" class="bouton" data-libelle="Trouver un électricien">Trouver un électricien</a> <a href="/electriciens#inscription" class="bouton bouton--contour" data-libelle="Électriciens">Inscrire mon entreprise</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<script type="application/json" id="donnees-annuaire">{"departements":[{"code":"01","nom":"Ain","region":"auvergne-rhone-alpes","c":[713,495]},{"code":"02","nom":"Aisne","region":"hauts-de-france","c":[591,152]},{"code":"03","nom":"Allier","region":"auvergne-rhone-alpes","c":[566,466]},{"code":"04","nom":"Alpes-de-Haute-Provence","region":"provence-alpes-cote-d-azur","c":[774,693]},{"code":"05","nom":"Hautes-Alpes","region":"provence-alpes-cote-d-azur","c":[775,638]},{"code":"06","nom":"Alpes-Maritimes","region":"provence-alpes-cote-d-azur","c":[834,710]},{"code":"07","nom":"Ardèche","region":"auvergne-rhone-alpes","c":[650,629]},{"code":"08","nom":"Ardennes","region":"grand-est","c":[664,146]},{"code":"09","nom":"Ariège","region":"occitanie","c":[450,811]},{"code":"10","nom":"Aube","region":"grand-est","c":[632,276]},{"code":"11","nom":"Aude","region":"occitanie","c":[512,793]},{"code":"12","nom":"Aveyron","region":"occitanie","c":[531,676]},{"code":"13","nom":"Bouches-du-Rhône","region":"provence-alpes-cote-d-azur","c":[695,749]},{"code":"14","nom":"Calvados","region":"normandie","c":[324,197]},{"code":"15","nom":"Cantal","region":"auvergne-rhone-alpes","c":[530,599]},{"code":"16","nom":"Charente","region":"nouvelle-aquitaine","c":[362,533]},{"code":"17","nom":"Charente-Maritime","region":"nouvelle-aquitaine","c":[304,528]},{"code":"18","nom":"Cher","region":"centre-val-de-loire","c":[518,399]},{"code":"19","nom":"Corrèze","region":"nouvelle-aquitaine","c":[476,569]},{"code":"21","nom":"Côte-d'Or","region":"bourgogne-franche-comte","c":[674,364]},{"code":"22","nom":"Côtes-d'Armor","region":"bretagne","c":[153,263]},{"code":"23","nom":"Creuse","region":"nouvelle-aquitaine","c":[486,496]},{"code":"24","nom":"Dordogne","region":"nouvelle-aquitaine","c":[399,594]},{"code":"25","nom":"Doubs","region":"bourgogne-franche-comte","c":[782,389]},{"code":"26","nom":"Drôme","region":"auvergne-rhone-alpes","c":[700,636]},{"code":"27","nom":"Eure","region":"normandie","c":[416,196]},{"code":"28","nom":"Eure-et-Loir","region":"centre-val-de-loire","c":[441,268]},{"code":"29","nom":"Finistère","region":"bretagne","c":[71,281]},{"code":"2A","nom":"Corse-du-Sud","region":"corse","c":[961,916]},{"code":"2B","nom":"Haute-Corse","region":"corse","c":[976,863]},{"code":"30","nom":"Gard","region":"occitanie","c":[633,704]},{"code":"31","nom":"Haute-Garonne","region":"occitanie","c":[428,767]},{"code":"32","nom":"Gers","region":"occitanie","c":[379,734]},{"code":"33","nom":"Gironde","region":"nouvelle-aquitaine","c":[309,622]},{"code":"34","nom":"Hérault","region":"occitanie","c":[578,745]},{"code":"35","nom":"Ille-et-Vilaine","region":"bretagne","c":[237,292]},{"code":"36","nom":"Indre","region":"centre-val-de-loire","c":[455,428]},{"code":"37","nom":"Indre-et-Loire","region":"centre-val-de-loire","c":[395,380]},{"code":"38","nom":"Isère","region":"auvergne-rhone-alpes","c":[728,578]},{"code":"39","nom":"Jura","region":"bourgogne-franche-comte","c":[737,432]},{"code":"40","nom":"Landes","region":"nouvelle-aquitaine","c":[294,707]},{"code":"41","nom":"Loir-et-Cher","region":"centre-val-de-loire","c":[445,344]},{"code":"42","nom":"Loire","region":"auvergne-rhone-alpes","c":[632,532]},{"code":"43","nom":"Haute-Loire","region":"auvergne-rhone-alpes","c":[608,592]},{"code":"44","nom":"Loire-Atlantique","region":"pays-de-la-loire","c":[233,370]},{"code":"45","nom":"Loiret","region":"centre-val-de-loire","c":[508,315]},{"code":"46","nom":"Lot","region":"occitanie","c":[458,641]},{"code":"47","nom":"Lot-et-Garonne","region":"nouvelle-aquitaine","c":[379,667]},{"code":"48","nom":"Lozère","region":"occitanie","c":[587,652]},{"code":"49","nom":"Maine-et-Loire","region":"pays-de-la-loire","c":[310,367]},{"code":"50","nom":"Manche","region":"normandie","c":[257,199]},{"code":"51","nom":"Marne","region":"grand-est","c":[637,212]},{"code":"52","nom":"Haute-Marne","region":"grand-est","c":[704,296]},{"code":"53","nom":"Mayenne","region":"pays-de-la-loire","c":[303,292]},{"code":"54","nom":"Meurthe-et-Moselle","region":"grand-est","c":[768,229]},{"code":"55","nom":"Meuse","region":"grand-est","c":[715,208]},{"code":"56","nom":"Morbihan","region":"bretagne","c":[157,321]},{"code":"57","nom":"Moselle","region":"grand-est","c":[802,204]},{"code":"58","nom":"Nièvre","region":"bourgogne-franche-comte","c":[587,394]},{"code":"59","nom":"Nord","region":"hauts-de-france","c":[567,63]},{"code":"60","nom":"Oise","region":"hauts-de-france","c":[514,167]},{"code":"61","nom":"Orne","region":"normandie","c":[357,245]},{"code":"62","nom":"Pas-de-Calais","region":"hauts-de-france","c":[504,59]},{"code":"63","nom":"Puy-de-Dôme","region":"auvergne-rhone-alpes","c":[562,532]},{"code":"64","nom":"Pyrénées-Atlantiques","region":"nouvelle-aquitaine","c":[296,777]},{"code":"65","nom":"Hautes-Pyrénées","region":"occitanie","c":[359,798]},{"code":"66","nom":"Pyrénées-Orientales","region":"occitanie","c":[520,843]},{"code":"67","nom":"Bas-Rhin","region":"grand-est","c":[863,240]},{"code":"68","nom":"Haut-Rhin","region":"grand-est","c":[844,321]},{"code":"69","nom":"Rhône","region":"auvergne-rhone-alpes","c":[664,518]},{"code":"70","nom":"Haute-Saône","region":"bourgogne-franche-comte","c":[763,342]},{"code":"71","nom":"Saône-et-Loire","region":"bourgogne-franche-comte","c":[658,441]},{"code":"72","nom":"Sarthe","region":"pays-de-la-loire","c":[363,307]},{"code":"73","nom":"Savoie","region":"auvergne-rhone-alpes","c":[788,557]},{"code":"74","nom":"Haute-Savoie","region":"auvergne-rhone-alpes","c":[786,502]},{"code":"75","nom":"Paris","region":"ile-de-france","c":[508,221]},{"code":"76","nom":"Seine-Maritime","region":"normandie","c":[418,142]},{"code":"77","nom":"Seine-et-Marne","region":"ile-de-france","c":[548,244]},{"code":"78","nom":"Yvelines","region":"ile-de-france","c":[474,226]},{"code":"79","nom":"Deux-Sèvres","region":"nouvelle-aquitaine","c":[326,450]},{"code":"80","nom":"Somme","region":"hauts-de-france","c":[503,112]},{"code":"81","nom":"Tarn","region":"occitanie","c":[496,725]},{"code":"82","nom":"Tarn-et-Garonne","region":"occitanie","c":[436,695]},{"code":"83","nom":"Var","region":"provence-alpes-cote-d-azur","c":[774,759]},{"code":"84","nom":"Vaucluse","region":"provence-alpes-cote-d-azur","c":[702,704]},{"code":"85","nom":"Vendée","region":"pays-de-la-loire","c":[260,438]},{"code":"86","nom":"Vienne","region":"nouvelle-aquitaine","c":[380,449]},{"code":"87","nom":"Haute-Vienne","region":"nouvelle-aquitaine","c":[432,516]},{"code":"88","nom":"Vosges","region":"grand-est","c":[784,287]},{"code":"89","nom":"Yonne","region":"bourgogne-franche-comte","c":[591,322]},{"code":"90","nom":"Territoire de Belfort","region":"bourgogne-franche-comte","c":[820,343]},{"code":"91","nom":"Essonne","region":"ile-de-france","c":[501,255]},{"code":"92","nom":"Hauts-de-Seine","region":"ile-de-france","c":[501,222]},{"code":"93","nom":"Seine-Saint-Denis","region":"ile-de-france","c":[517,215]},{"code":"94","nom":"Val-de-Marne","region":"ile-de-france","c":[516,229]},{"code":"95","nom":"Val-d'Oise","region":"ile-de-france","c":[493,199]}],"outremer":[{"code":"971","nom":"Guadeloupe"},{"code":"972","nom":"Martinique"},{"code":"973","nom":"Guyane"},{"code":"974","nom":"La Réunion"},{"code":"976","nom":"Mayotte"}],"regions":[{"id":"auvergne-rhone-alpes","nom":"Auvergne-Rhône-Alpes"},{"id":"bourgogne-franche-comte","nom":"Bourgogne-Franche-Comté"},{"id":"bretagne","nom":"Bretagne"},{"id":"centre-val-de-loire","nom":"Centre-Val de Loire"},{"id":"corse","nom":"Corse"},{"id":"grand-est","nom":"Grand Est"},{"id":"hauts-de-france","nom":"Hauts-de-France"},{"id":"ile-de-france","nom":"Île-de-France"},{"id":"normandie","nom":"Normandie"},{"id":"nouvelle-aquitaine","nom":"Nouvelle-Aquitaine"},{"id":"occitanie","nom":"Occitanie"},{"id":"pays-de-la-loire","nom":"Pays de la Loire"},{"id":"provence-alpes-cote-d-azur","nom":"Provence-Alpes-Côte d’Azur"},{"id":"outre-mer","nom":"Outre-mer"}],"inscrits":[{"nom":"Elec-baronnies","cp":"05150","ville":"Saint-André-de-Rosans","dep":"05"},{"nom":"RITIE SARL","cp":"28150","ville":"Boisville-la-Saint-Père","dep":"28"},{"nom":"SARL-MJE","cp":"31600","ville":"Seysses","dep":"31"},{"nom":"Sarl Nov’électric","cp":"38690","ville":"Le Grand-Lemps","dep":"38"},{"nom":"DATALAN / AMPHASE","cp":"94400","ville":"Vitry-sur-Seine","dep":"94"},{"nom":"AEG Vuadens","cp":"74500","ville":"Lugrin","dep":"74"},{"nom":"Philippe Bour","cp":"33140","ville":"Villenave-d’Ornon","dep":"33"},{"nom":"2CRISNAY, courants faibles","cp":"03200","ville":"Vichy","dep":"03"},{"nom":"ELEC-FR SERVICES","cp":"25370","ville":"Rochejean","dep":"25"},{"nom":"SARL CELEC","cp":"90140","ville":"Froidefontaine","dep":"90"}],"largeur":1000,"hauteur":965}</script>
+<section class="ouv ouv--pros" id="debut">
+  <figure class="media ouv-pros-media" data-grok data-fx="parallaxe" data-fx-force="10" data-iris-centre style="--cadrage:38% 40%;--cadrage-mobile:43% 41%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/electriciens-chantier-mobile-640.webp 640w, /assets/images/grok/electriciens-chantier-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/electriciens-chantier-1280.webp" srcset="/assets/images/grok/electriciens-chantier-640.webp 640w, /assets/images/grok/electriciens-chantier-1280.webp 1280w, /assets/images/grok/electriciens-chantier-1600.webp 1600w" sizes="100vw" alt="Électricien de dos tirant des câbles dans une pièce en rénovation" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur ouv-pros-texte">
+    <p class="surtitre" data-anime="gsap" data-entree>Pour les électriciens</p>
+    <h1 class="titre-xxl"><span class="ligne-masque"><span class="intro-ligne" data-anime="gsap">Faites-vous</span></span><span class="ligne-masque"><span class="intro-ligne" data-anime="gsap"><em>trouver.</em></span></span></h1>
+    <p class="ouv-chapo masque-ecran-bas" data-anime="gsap" data-entree>Les particuliers et les entreprises cherchent un électricien près de chez eux. Soyez dans l’annuaire, au bon endroit.</p>
+    <p class="actions" data-anime="gsap" data-entree>
+      <a class="bouton" href="#inscription" data-action-principale data-survol="magnetique">Inscrire mon entreprise</a>
+      <a class="bouton bouton--contour bouton--clair" href="#presence">Vérifier ma présence</a>
+    </p>
+    <p class="info-cle info-cle--prix" data-info-cle data-anime="gsap" data-entree data-prix><span class="pastille" aria-hidden="true"></span>Dès 320 € HT, une seule fois</p>
+  </div>
+</section>
+<section class="section clair offres" id="offres">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Les offres</p>
+      <h2 class="titre-l" data-anime="lignes">Deux façons d’être vu.</h2>
+    </div>
+    <ul class="offres-grille" data-anime="cascade">
+      <li class="offre offre--fiche"><div class="offre-corps" data-survol="incline" data-survol-force="3">
+        <h3>Fiche coordonnées</h3>
+        <p class="offre-prix" data-prix><strong class="chiffre" data-compteur="320">320</strong> <span>€ HT</span></p>
+        <p class="offre-rythme">une seule fois</p>
+        <ul class="offre-liste"><li><svg class="coche" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17l9-10"/></svg>Votre entreprise et vos coordonnées dans l’annuaire</li><li><svg class="coche" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17l9-10"/></svg>Trouvée par ville, code postal et département</li><li><svg class="coche" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17l9-10"/></svg>Valable toute la vie du site</li></ul>
+        <a class="bouton bouton--contour" href="?offre=fiche#inscription" data-offre-lien="fiche" data-sans-transition>Choisir cette offre</a>
+      </div></li><li class="offre offre--avant"><div class="offre-corps" data-survol="incline" data-survol-force="3">
+        <h3>Mise en avant</h3>
+        <p class="offre-prix" data-prix><strong class="chiffre" data-compteur="750">750</strong> <span>€ HT</span></p>
+        <p class="offre-rythme">par département et par an</p>
+        <ul class="offre-liste"><li><svg class="coche" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17l9-10"/></svg>Votre fiche en avant dans les résultats du département</li><li><svg class="coche" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17l9-10"/></svg>Votre logo</li><li><svg class="coche" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17l9-10"/></svg>Un lien vers votre site</li></ul>
+        <a class="bouton" href="?offre=avant#inscription" data-offre-lien="avant" data-sans-transition>Choisir cette offre</a>
+      </div></li>
+    </ul>
+  </div>
+</section>
+<section class="section demo" id="mise-en-avant">
+  <div class="conteneur demo-grille">
+    <div class="demo-texte">
+      <p class="surtitre" data-anime>La mise en avant</p>
+      <h2 class="titre-l" data-anime="lignes">Ce que voit un particulier qui cherche dans votre département.</h2>
+      <p data-anime>Faites défiler : votre fiche passe devant, avec votre logo et le lien vers votre site.</p>
+      <p class="mention-demo" data-anime>Illustration : fiches neutres, sans vraies entreprises</p>
+    </div>
+    <div class="demo-ecran" data-visuel data-demo>
+      <div class="demo-barre" aria-hidden="true"><span></span><span></span><span></span><p>electricien.fr · 38 Isère</p></div>
+      <ol class="demo-liste" aria-label="Illustration : fiches neutres, sans vraies entreprises">
+        <li class="demo-fiche demo-fiche--neutre" aria-hidden="true"><span class="demo-rond"></span><span class="demo-lignes"><span></span><span></span></span></li><li class="demo-fiche demo-fiche--neutre" aria-hidden="true"><span class="demo-rond"></span><span class="demo-lignes"><span></span><span></span></span></li><li class="demo-fiche demo-fiche--neutre" aria-hidden="true"><span class="demo-rond"></span><span class="demo-lignes"><span></span><span></span></span></li>
+        <li class="demo-fiche demo-fiche--vous" data-effet="mise-en-avant" data-superpose>
+          <span class="demo-logo">Logo</span>
+          <span class="demo-vous"><strong>Votre entreprise</strong><span>Votre ville</span></span>
+          <span class="demo-site">Votre site <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </li>
+        <li class="demo-fiche demo-fiche--neutre" aria-hidden="true"><span class="demo-rond"></span><span class="demo-lignes"><span></span><span></span></span></li><li class="demo-fiche demo-fiche--neutre" aria-hidden="true"><span class="demo-rond"></span><span class="demo-lignes"><span></span><span></span></span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="section clair temoignages" id="temoignages">
+  <div class="conteneur temoignages-grille">
+    <div class="temoignages-tete">
+      <p class="surtitre" data-anime>Ils l’ont fait</p>
+      <h2 class="titre-l" data-anime="lignes">Les premiers appels, dès l’inscription.</h2>
+      <figure class="media temoignages-media" data-grok data-fx="parallaxe" data-fx-force="10" style="--cadrage:44% 51%">
+  <picture>
+    <img src="/assets/images/grok/electriciens-atelier-1280.webp" srcset="/assets/images/grok/electriciens-atelier-640.webp 640w, /assets/images/grok/electriciens-atelier-1280.webp 1280w, /assets/images/grok/electriciens-atelier-1536.webp 1536w" sizes="(max-width: 760px) 88vw, 36vw" alt="Bobines de câbles rangées dans un atelier" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+    <ul class="temoignages-liste" data-anime="cascade">
+      <li><figure class="temoignage">
+        <blockquote><p>Nous avons eu beaucoup de demandes grâce à vos services. Le plus étonnant a été l’arrivée des premiers appels dès que nous nous sommes inscrits. Nous nous réinscrirons lorsque nous serons moins débordés. Merci !</p></blockquote>
+        <figcaption><span class="temoignage-initiale" aria-hidden="true">G</span><span><strong>Grégoire Wieglos</strong><br>GREG ELEC</span></figcaption>
+      </figure></li><li><figure class="temoignage">
+        <blockquote><p>Nous avons eu dès le premier mois 5 clients finalisés grâce à vos services et à la visibilité de votre site web.</p></blockquote>
+        <figcaption><span class="temoignage-initiale" aria-hidden="true">A</span><span><strong>Freddy Truong</strong><br>Acteca</span></figcaption>
+      </figure></li><li><figure class="temoignage">
+        <blockquote><p>Ayant eu une période plus calme dans notre activité, nous avons fait appel aux services d’electricien.fr. Nous avons eu de très nombreux contacts, et ce de façon régulière, dès que nous avons souscrit à l’offre. Nous avons ainsi eu de nouveaux clients (particuliers et entreprises) sur toute l’Île-de-France. Ce fut vraiment un investissement rentable pour nous.</p></blockquote>
+        <figcaption><span class="temoignage-initiale" aria-hidden="true">S</span><span><strong>Franck Lebellier</strong><br>SARL EBPI</span></figcaption>
+      </figure></li>
+    </ul>
+  </div>
+</section>
+<section class="section presence" id="presence">
+  <div class="conteneur presence-grille">
+    <div>
+      <p class="surtitre" data-anime>Vérifiez votre présence</p>
+      <h2 class="titre-l" data-anime="lignes">Êtes-vous déjà dans l’annuaire ?</h2>
+      <p data-anime>Tapez le nom de votre entreprise ou votre code postal.</p>
+    </div>
+    <div class="presence-outil" data-anime data-visuel>
+      <form class="presence-form" data-presence novalidate>
+        <label for="presence-champ">Nom de l’entreprise ou code postal</label>
+        <div class="presence-ligne">
+          <input id="presence-champ" type="search" autocomplete="organization" required>
+          <button class="bouton" type="submit">Vérifier</button>
+        </div>
+      </form>
+      <div class="presence-reponse" data-presence-reponse aria-live="polite"><p class="mention-demo">Maquette : la vérification porte sur les 10 derniers inscrits.</p></div>
+      <template data-presence-textes data-trouve="Bonne nouvelle : votre entreprise est référencée." data-absent="Nous ne trouvons pas cette entreprise dans la maquette, qui ne contient que les 10 derniers inscrits. Inscrivez-vous ci-dessous."></template>
+    </div>
+  </div>
+</section>
+<section class="section clair inscription fpe" id="inscription" data-module="formulaire-par-etapes">
+  <div class="conteneur inscription-grille">
+    <div class="fpe__tete">
+      <p class="surtitre" data-anime>Inscription</p>
+      <h2 class="titre-l" data-anime="lignes">Inscrire mon entreprise.</h2>
+      <p data-anime>Trois étapes : votre entreprise, votre offre, votre récapitulatif.</p>
+      <div class="inscription-total" data-total data-anime data-prix>
+        <p class="inscription-total-libelle">Total</p>
+        <p class="inscription-total-valeur"><strong class="chiffre" data-total-valeur>320</strong> <span>€ HT</span> <span data-total-rythme>une seule fois</span></p>
+      </div>
+    </div>
+    <div class="fpe__carton" data-anime>
+      <form class="fpe__form" novalidate data-inscription>
+        <fieldset class="fpe__etape" data-etape="Entreprise">
+          <legend class="fpe__legende"><h3 class="fpe__titre" tabindex="-1">Votre entreprise</h3></legend>
+          <div class="fpe__champ"><label for="i-nom">Nom de l’entreprise</label><input id="i-nom" name="nom" required autocomplete="organization" data-libelle="Nom de l’entreprise" data-message="Indiquez le nom de votre entreprise."></div>
+          <div class="fpe__champ"><label for="i-cp">Code postal</label><input id="i-cp" name="cp" required inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" data-libelle="Code postal" data-message="Indiquez un code postal à 5 chiffres."></div>
+          <div class="fpe__champ"><label for="i-tel">Téléphone</label><input id="i-tel" name="telephone" type="tel" required pattern="[0-9 .+]{10,17}" autocomplete="tel" data-libelle="Téléphone" data-message="Indiquez un numéro de téléphone à 10 chiffres."></div>
+          <div class="fpe__champ"><label for="i-email">E-mail</label><input id="i-email" name="email" type="email" required autocomplete="email" data-libelle="E-mail" data-message="Indiquez une adresse e-mail valide."></div>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Offre">
+          <legend class="fpe__legende"><h3 class="fpe__titre" tabindex="-1">Votre offre</h3></legend>
+          <div class="fpe__groupe fpe__cartes" data-libelle="Offre choisie">
+            <label class="fpe__carte"><input type="radio" name="offre" value="fiche" checked required>
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><rect x="6" y="5" width="20" height="22" rx="3"/><path d="M11 12h10M11 17h10M11 22h6"/></svg>
+              <span class="fpe__carte-titre">Fiche coordonnées</span><span class="fpe__carte-texte">320 € HT, une seule fois</span></label>
+            <label class="fpe__carte"><input type="radio" name="offre" value="avant">
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4l3.5 7.4 8 1-5.9 5.5 1.5 8L16 22l-7.1 3.9 1.5-8L4.5 12.4l8-1z"/></svg>
+              <span class="fpe__carte-titre">Mise en avant</span><span class="fpe__carte-texte">750 € HT par département et par an</span></label>
+          </div>
+          <div class="fpe__champ" data-champ-deps hidden><label for="i-deps">Départements de la mise en avant</label><input id="i-deps" name="departements" inputmode="numeric" aria-describedby="i-deps-aide" pattern="\s*(\d{2,3}|2[ABab])(\s*,\s*(\d{2,3}|2[ABab]))*\s*" data-libelle="Départements de la mise en avant" data-message="Indiquez au moins un numéro de département."><p class="fpe__aide" id="i-deps-aide">Numéros séparés par des virgules, par exemple 38, 73</p></div>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Envoi" data-recap>
+          <legend class="fpe__legende"><h3 class="fpe__titre" tabindex="-1">Récapitulatif</h3></legend>
+          <div class="fpe__recap"></div>
+          <p class="mention-donnees">Vos coordonnées servent seulement à traiter votre inscription. Politique de confidentialité : à compléter.</p>
+        </fieldset>
+        <div class="fpe__nav"><button type="button" class="bouton bouton--contour" data-precedent>Retour</button><button type="button" class="bouton" data-suivant>Continuer</button><button type="submit" class="bouton">Envoyer ma demande</button></div>
+      </form>
+      <div class="fpe__fin" hidden tabindex="-1"><h3>Inscrire mon entreprise.</h3><p data-resume></p><p class="mention-demo">Maquette : rien n’a été envoyé. Sur le site, l’inscription sera transmise à l’équipe d’electricien.fr.</p><button type="button" class="bouton bouton--contour" data-recommencer>Retour</button></div>
+    </div>
+  </div>
+</section>
+<section class="section appel" id="fin">
+  <div class="conteneur appel-corps">
+    <h2 class="titre-l" data-anime="lignes">Une question avant de vous inscrire ?</h2>
+    <p data-anime>L’équipe vous répond sur les offres, la mise à jour de votre fiche ou la mise en avant.</p>
+    <p class="actions" data-anime><a href="/contact?sujet=inscription#formulaire" class="bouton" data-libelle="Contact" data-survol="magnetique">Poser une question</a></p>
+  </div>
+  <svg class="appel-trait" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M0 40 C 240 40 300 100 480 100 S 760 20 920 50 S 1100 90 1200 80" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="marque marque--grande">electricien<b>.fr</b></p>
+      <p>L’annuaire des électriciens en France.</p>
+      <p class="pied-avertissement">electricien.fr référence les électriciens sans juger de la qualité ni des compétences des entreprises : comparez et demandez un devis.</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/trouver" data-libelle="Trouver un électricien">Trouver un électricien</a></li><li><a href="/electriciens" data-libelle="Électriciens" aria-current="page">Électriciens</a></li><li><a href="/conseils" data-libelle="Conseils">Conseils</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Électriciens</p>
+      <ul>
+        <li><a href="/electriciens#offres" data-libelle="Électriciens">Les offres</a></li>
+        <li><a href="/electriciens#presence" data-libelle="Électriciens">Vérifier ma présence</a></li>
+        <li><a href="/electriciens#inscription" data-libelle="Électriciens">Inscrire mon entreprise</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : les recherches, l’inscription et les formulaires sont simulés.</p><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>© electricien.fr</p></div>
+</footer>
+<div data-barre-fixe>
+  <a href="/trouver" class="bouton" data-libelle="Trouver un électricien">Trouver</a>
+  <a href="/electriciens" class="bouton bouton--contour" data-libelle="Électriciens" aria-current="page">Électriciens</a>
+</div>
+</body>
+</html>

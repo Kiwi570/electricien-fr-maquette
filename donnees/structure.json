@@ -1,0 +1,8 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "electricien.fr",
+  "url": "https://electricien-fr-maquette.vercel.app/",
+  "description": "Annuaire des électriciens en France : recherche par région, département ou code postal.",
+  "inLanguage": "fr-FR"
+}

@@ -1,0 +1,1117 @@
+{
+  "grok/accueil-maison-soir": {
+    "nom": "grok/accueil-maison-soir",
+    "source": "recu/grok/accueil-maison-soir.jpg",
+    "role": "carte-service",
+    "alt": "Maison de ville à la tombée du jour, fenêtres éclairées",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "16ec4d29b8b6c3ac",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "47% 45%",
+    "sujet": {
+      "x": 4.5,
+      "y": 6.3,
+      "l": 81.8,
+      "h": 81.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1024,
+      "height": 1536,
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-maison-soir-480.webp",
+      "grok/accueil-maison-soir-640.webp",
+      "grok/accueil-maison-soir-784.webp"
+    ],
+    "poids": {
+      "grok/accueil-maison-soir-480.webp": 86084,
+      "grok/accueil-maison-soir-640.webp": 158814,
+      "grok/accueil-maison-soir-784.webp": 237110
+    },
+    "media": "c.media({ nom: 'grok/accueil-maison-soir', alt: \"Maison de ville à la tombée du jour, fenêtres éclairées\", cadrage: '47% 45%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/accueil-tableau": {
+    "nom": "grok/accueil-tableau",
+    "source": "recu/grok/accueil-tableau.jpg",
+    "role": "carte-service",
+    "alt": "Mains gantées d'électricien devant un tableau électrique ouvert",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "0d96cda2fc98eeb1",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "46% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1024,
+      "height": 1536,
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-tableau-480.webp",
+      "grok/accueil-tableau-640.webp",
+      "grok/accueil-tableau-784.webp"
+    ],
+    "poids": {
+      "grok/accueil-tableau-480.webp": 20942,
+      "grok/accueil-tableau-640.webp": 28856,
+      "grok/accueil-tableau-784.webp": 36036
+    },
+    "media": "c.media({ nom: 'grok/accueil-tableau', alt: \"Mains gantées d'électricien devant un tableau électrique ouvert\", cadrage: '46% 48%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/accueil-interieur": {
+    "nom": "grok/accueil-interieur",
+    "source": "recu/grok/accueil-interieur.jpg",
+    "role": "carte-service",
+    "alt": "Salon rénové éclairé le soir par des suspensions chaudes",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "0f4d2a612921fad4",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "51% 64%",
+    "sujet": {
+      "x": 0,
+      "y": 31.3,
+      "l": 95.5,
+      "h": 68.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.86,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1024,
+      "height": 1536,
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-interieur-480.webp",
+      "grok/accueil-interieur-640.webp",
+      "grok/accueil-interieur-784.webp"
+    ],
+    "poids": {
+      "grok/accueil-interieur-480.webp": 12614,
+      "grok/accueil-interieur-640.webp": 17470,
+      "grok/accueil-interieur-784.webp": 22744
+    },
+    "media": "c.media({ nom: 'grok/accueil-interieur', alt: \"Salon rénové éclairé le soir par des suspensions chaudes\", cadrage: '51% 64%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/accueil-local-technique": {
+    "nom": "grok/accueil-local-technique",
+    "source": "recu/grok/accueil-local-technique.jpg",
+    "role": "section-fond",
+    "alt": "Électricien de dos devant une grande armoire électrique éclairée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "13582873cf4abd76",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 50%"
+    },
+    "cadrage": "52% 50%",
+    "sujet": {
+      "x": 9.4,
+      "y": 0,
+      "l": 87.5,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "grok/accueil-local-technique-640.webp",
+      "grok/accueil-local-technique-1280.webp",
+      "grok/accueil-local-technique-1600.webp",
+      "grok/accueil-local-technique-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/accueil-local-technique-640.webp": 13086,
+      "grok/accueil-local-technique-1280.webp": 29520,
+      "grok/accueil-local-technique-1600.webp": 39114,
+      "grok/accueil-local-technique-mobile-640.webp": 25522
+    },
+    "media": "c.media({ nom: 'grok/accueil-local-technique', alt: \"Électricien de dos devant une grande armoire électrique éclairée\", cadrage: '52% 50%', cadrageMobile: '50% 50%', sizes: '100vw' })"
+  },
+  "grok/accueil-cuivre": {
+    "nom": "grok/accueil-cuivre",
+    "source": "recu/grok/accueil-cuivre.jpg",
+    "role": "section-fond",
+    "alt": "Fils de cuivre dénudés en très gros plan",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "13d6ba424459cc18",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "58% 65%",
+    "sujet": {
+      "x": 6.3,
+      "y": 31.8,
+      "l": 84.4,
+      "h": 63.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.81,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-cuivre-640.webp",
+      "grok/accueil-cuivre-1280.webp",
+      "grok/accueil-cuivre-1536.webp"
+    ],
+    "poids": {
+      "grok/accueil-cuivre-640.webp": 20610,
+      "grok/accueil-cuivre-1280.webp": 48558,
+      "grok/accueil-cuivre-1536.webp": 60856
+    },
+    "media": "c.media({ nom: 'grok/accueil-cuivre', alt: \"Fils de cuivre dénudés en très gros plan\", cadrage: '58% 65%', sizes: '100vw' })"
+  },
+  "grok/conseil-diagnostic": {
+    "nom": "grok/conseil-diagnostic",
+    "source": "recu/grok/conseil-diagnostic.jpg",
+    "role": "carte-service",
+    "alt": "Testeur électrique posé sur un tableau électrique",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "93c2fc8ff382bf90",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "49% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1024,
+      "height": 1536,
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/conseil-diagnostic-480.webp",
+      "grok/conseil-diagnostic-640.webp",
+      "grok/conseil-diagnostic-784.webp"
+    ],
+    "poids": {
+      "grok/conseil-diagnostic-480.webp": 20270,
+      "grok/conseil-diagnostic-640.webp": 28096,
+      "grok/conseil-diagnostic-784.webp": 35832
+    },
+    "media": "c.media({ nom: 'grok/conseil-diagnostic', alt: \"Testeur électrique posé sur un tableau électrique\", cadrage: '49% 45%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/conseil-norme": {
+    "nom": "grok/conseil-norme",
+    "source": "recu/grok/conseil-norme.jpg",
+    "role": "carte-service",
+    "alt": "Prises électriques encastrées dans une cuisine rénovée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "0f4b62f4fff52b83",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "68% 49%",
+    "sujet": {
+      "x": 31.8,
+      "y": 21.9,
+      "l": 59.1,
+      "h": 56.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.75,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.65,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1024,
+      "height": 1536,
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/conseil-norme-480.webp",
+      "grok/conseil-norme-640.webp",
+      "grok/conseil-norme-784.webp"
+    ],
+    "poids": {
+      "grok/conseil-norme-480.webp": 7478,
+      "grok/conseil-norme-640.webp": 10966,
+      "grok/conseil-norme-784.webp": 14584
+    },
+    "media": "c.media({ nom: 'grok/conseil-norme', alt: \"Prises électriques encastrées dans une cuisine rénovée\", cadrage: '68% 49%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/conseil-pro": {
+    "nom": "grok/conseil-pro",
+    "source": "recu/grok/conseil-pro.jpg",
+    "role": "carte-service",
+    "alt": "Outils d'électricien rangés sur un établi",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "3d6e4200eba7cf84",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "54% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1024,
+      "height": 1536,
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/conseil-pro-480.webp",
+      "grok/conseil-pro-640.webp",
+      "grok/conseil-pro-784.webp"
+    ],
+    "poids": {
+      "grok/conseil-pro-480.webp": 23420,
+      "grok/conseil-pro-640.webp": 32830,
+      "grok/conseil-pro-784.webp": 42156
+    },
+    "media": "c.media({ nom: 'grok/conseil-pro', alt: \"Outils d'électricien rangés sur un établi\", cadrage: '54% 43%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/conseil-solaire": {
+    "nom": "grok/conseil-solaire",
+    "source": "recu/grok/conseil-solaire.jpg",
+    "role": "carte-service",
+    "alt": "Panneaux solaires sur un toit de tuiles au soleil couchant",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "c847172eef3740aa",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "56% 62%",
+    "sujet": {
+      "x": 0,
+      "y": 12.5,
+      "l": 95.5,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1024,
+      "height": 1536,
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/conseil-solaire-480.webp",
+      "grok/conseil-solaire-640.webp",
+      "grok/conseil-solaire-784.webp"
+    ],
+    "poids": {
+      "grok/conseil-solaire-480.webp": 18140,
+      "grok/conseil-solaire-640.webp": 25672,
+      "grok/conseil-solaire-784.webp": 32488
+    },
+    "media": "c.media({ nom: 'grok/conseil-solaire', alt: \"Panneaux solaires sur un toit de tuiles au soleil couchant\", cadrage: '56% 62%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/trouver-rue": {
+    "nom": "grok/trouver-rue",
+    "source": "recu/grok/trouver-rue.jpg",
+    "role": "ouverture",
+    "alt": "Rue d'une petite ville française au crépuscule, fenêtres allumées",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "e9df80f1aa7fe483",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "54% 50%"
+    },
+    "cadrage": "51% 44%",
+    "sujet": {
+      "x": 9.4,
+      "y": 5.6,
+      "l": 90.6,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/trouver-rue-640.webp",
+      "grok/trouver-rue-1280.webp",
+      "grok/trouver-rue-1600.webp",
+      "grok/trouver-rue-mobile-640.webp",
+      "grok/trouver-rue-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/trouver-rue-640.webp": 39564,
+      "grok/trouver-rue-1280.webp": 84922,
+      "grok/trouver-rue-1600.webp": 112428,
+      "grok/trouver-rue-mobile-640.webp": 38050,
+      "grok/trouver-rue-mobile-1080.webp": 72276
+    },
+    "media": "c.media({ nom: 'grok/trouver-rue', alt: \"Rue d'une petite ville française au crépuscule, fenêtres allumées\", cadrage: '51% 44%', cadrageMobile: '54% 50%', sizes: '100vw', priorite: true })"
+  },
+  "grok/electriciens-chantier": {
+    "nom": "grok/electriciens-chantier",
+    "source": "recu/grok/electriciens-chantier.jpg",
+    "role": "ouverture",
+    "alt": "Électricien de dos tirant des câbles dans une pièce en rénovation",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "2c2385e4de84d619",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "43% 41%"
+    },
+    "cadrage": "38% 40%",
+    "sujet": {
+      "x": 12.5,
+      "y": 22.2,
+      "l": 50,
+      "h": 50
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.55,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/electriciens-chantier-640.webp",
+      "grok/electriciens-chantier-1280.webp",
+      "grok/electriciens-chantier-1600.webp",
+      "grok/electriciens-chantier-mobile-640.webp",
+      "grok/electriciens-chantier-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/electriciens-chantier-640.webp": 28512,
+      "grok/electriciens-chantier-1280.webp": 64862,
+      "grok/electriciens-chantier-1600.webp": 84434,
+      "grok/electriciens-chantier-mobile-640.webp": 35688,
+      "grok/electriciens-chantier-mobile-1080.webp": 68256
+    },
+    "media": "c.media({ nom: 'grok/electriciens-chantier', alt: \"Électricien de dos tirant des câbles dans une pièce en rénovation\", cadrage: '38% 40%', cadrageMobile: '43% 41%', sizes: '100vw', priorite: true })"
+  },
+  "grok/electriciens-atelier": {
+    "nom": "grok/electriciens-atelier",
+    "source": "recu/grok/electriciens-atelier.jpg",
+    "role": "section-fond",
+    "alt": "Bobines de câbles rangées dans un atelier",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d5d04efc14beecd6",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1536
+    ],
+    "mobile": null,
+    "cadrage": "44% 51%",
+    "sujet": {
+      "x": 12.5,
+      "y": 13.6,
+      "l": 56.3,
+      "h": 72.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.69,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/electriciens-atelier-640.webp",
+      "grok/electriciens-atelier-1280.webp",
+      "grok/electriciens-atelier-1536.webp"
+    ],
+    "poids": {
+      "grok/electriciens-atelier-640.webp": 29766,
+      "grok/electriciens-atelier-1280.webp": 87332,
+      "grok/electriciens-atelier-1536.webp": 112390
+    },
+    "media": "c.media({ nom: 'grok/electriciens-atelier', alt: \"Bobines de câbles rangées dans un atelier\", cadrage: '44% 51%', sizes: '100vw' })"
+  },
+  "grok/conseils-tableau": {
+    "nom": "grok/conseils-tableau",
+    "source": "recu/grok/conseils-tableau.jpg",
+    "role": "ouverture",
+    "alt": "Tableau électrique moderne aux disjoncteurs alignés",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "b4a2dc347f2f9af6",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 50%"
+    },
+    "cadrage": "66% 50%",
+    "sujet": {
+      "x": 46.9,
+      "y": 5.6,
+      "l": 46.9,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.98,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "grok/conseils-tableau-640.webp",
+      "grok/conseils-tableau-1280.webp",
+      "grok/conseils-tableau-1600.webp",
+      "grok/conseils-tableau-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/conseils-tableau-640.webp": 10028,
+      "grok/conseils-tableau-1280.webp": 21788,
+      "grok/conseils-tableau-1600.webp": 28804,
+      "grok/conseils-tableau-mobile-640.webp": 25262
+    },
+    "media": "c.media({ nom: 'grok/conseils-tableau', alt: \"Tableau électrique moderne aux disjoncteurs alignés\", cadrage: '66% 50%', cadrageMobile: '50% 50%', sizes: '100vw', priorite: true })"
+  },
+  "grok/contact-lampe": {
+    "nom": "grok/contact-lampe",
+    "source": "recu/grok/contact-lampe.jpg",
+    "role": "ouverture",
+    "alt": "Ampoule à filament allumée dans la pénombre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "4d73cb858a41d7f3",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "53% 61%"
+    },
+    "cadrage": "58% 55%",
+    "sujet": {
+      "x": 59.4,
+      "y": 22.2,
+      "l": 15.6,
+      "h": 38.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.98,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.95,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.84,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.62,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/contact-lampe-640.webp",
+      "grok/contact-lampe-1280.webp",
+      "grok/contact-lampe-1600.webp",
+      "grok/contact-lampe-mobile-640.webp",
+      "grok/contact-lampe-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/contact-lampe-640.webp": 4918,
+      "grok/contact-lampe-1280.webp": 12158,
+      "grok/contact-lampe-1600.webp": 16654,
+      "grok/contact-lampe-mobile-640.webp": 10824,
+      "grok/contact-lampe-mobile-1080.webp": 21980
+    },
+    "media": "c.media({ nom: 'grok/contact-lampe', alt: \"Ampoule à filament allumée dans la pénombre\", cadrage: '58% 55%', cadrageMobile: '53% 61%', sizes: '100vw', priorite: true })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Prise électrique débranchée posée au sol à côté d'une prise murale",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "01c32bc5856b8a1c",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "54% 73%",
+    "sujet": {
+      "x": 0,
+      "y": 33.3,
+      "l": 100,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.96,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.43,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 6042,
+      "grok/page-404-1600.webp": 30610
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Prise électrique débranchée posée au sol à côté d'une prise murale\", cadrage: '54% 73%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

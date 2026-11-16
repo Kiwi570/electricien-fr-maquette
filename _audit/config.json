@@ -1,0 +1,19 @@
+{
+  "siteActuel": "electricien.fr",
+  "pagesTypes": [
+    "/",
+    "/trouver",
+    "/electriciens"
+  ],
+  "effets": [
+    "carte-allumee",
+    "saisie",
+    "rail-inscrits",
+    "mise-en-avant"
+  ],
+  "grille": {
+    "dispenses": {
+      "voile": "glisse voulue : le voile monte comme le courant dans une gaine, avec le logo-prise et le nom de la page ; la variété vient de l’intro et des ouvertures"
+    }
+  }
+}
